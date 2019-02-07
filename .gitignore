@@ -1,0 +1,15 @@
+/shared
+/app/upgrade/
+.DS_Store
+
+/node_modules
+/package-lock.json
+/composer.lock
+/mix-manifest.json
+
+/wp-config.php
+
+/app/themes/vanaf1979/public
+/app/plugins
+/wp
+/vendor

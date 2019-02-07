@@ -455,10 +455,10 @@ module.exports = utils; // var w = document.querySelector("#width"),
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-live-site/app/themes/vanaf1979/src/js/app.js */"./app/themes/vanaf1979/src/js/app.js");
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-live-site/app/themes/vanaf1979/src/css/header.scss */"./app/themes/vanaf1979/src/css/header.scss");
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-live-site/app/themes/vanaf1979/src/css/footer.scss */"./app/themes/vanaf1979/src/css/footer.scss");
-module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-live-site/app/themes/vanaf1979/src/css/style.scss */"./app/themes/vanaf1979/src/css/style.scss");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/js/app.js */"./app/themes/vanaf1979/src/js/app.js");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/header.scss */"./app/themes/vanaf1979/src/css/header.scss");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/footer.scss */"./app/themes/vanaf1979/src/css/footer.scss");
+module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/style.scss */"./app/themes/vanaf1979/src/css/style.scss");
 
 
 /***/ })

@@ -9,10 +9,10 @@ let themePath = 'app/themes/vanaf1979/';
 
 mix.autoload({})
 .js( themePath + 'src/js/app.js', themePath + 'public/js/app.js')
-.js( themePath + 'src/js/sw.js', themePath + 'public/js/sw.js')
 .sass( themePath + 'src/css/header.scss', themePath + 'public/css/header.css')
 .sass( themePath + 'src/css/footer.scss', themePath + 'public/css/footer.css')
 .sass( themePath + 'src/css/style.scss', themePath + 'style.css')
+.copy('src/js/sw.js', themePath + 'public/js/sw.js')
 .options({
   processCssUrls: false,
   autoprefixer: {

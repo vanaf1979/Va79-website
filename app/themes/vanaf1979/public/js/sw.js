@@ -216,7 +216,7 @@ if (workbox) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-live-site/app/themes/vanaf1979/src/js/sw.js */"./app/themes/vanaf1979/src/js/sw.js");
+module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/js/sw.js */"./app/themes/vanaf1979/src/js/sw.js");
 
 
 /***/ })

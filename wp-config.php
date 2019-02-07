@@ -7,7 +7,7 @@
 // define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
 // define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
 
-define( 'DB_NAME', 'buddytest' );
+define( 'DB_NAME', 'vanaf1979website' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'melanie123' );
 define( 'DB_HOST', 'localhost' );
@@ -58,7 +58,7 @@ define( 'WPLANG', '' );
 // ===========
 // Errors
 // ===========
-$vadebugging = false;
+$vadebugging = true;
 
 if( $vadebugging )
 {
