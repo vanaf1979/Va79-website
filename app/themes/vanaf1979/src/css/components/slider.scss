@@ -1,0 +1,51 @@
+
+.slider {
+    height: 500px;
+    background: lightblue;
+}
+    .slider .slide {
+        height: 100%;
+        background-image: url(/app/themes/vanaf1979/public/img/raphael-schaller-88763-unsplash.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .slider .slide .inner {
+            width: 100%;
+            height: 100%;
+            background: rgba( 0 , 101 , 155 , 0.7 );
+        }
+            .slider .slide .inner .content {
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+                .slider .slide .inner .content section {
+                    display: inline-block;
+                    width: 65%;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                    .slider .slide .inner .content section h3 {
+                        color: #ffffff;
+                        font-size: 30px;
+                        line-height: 40px;
+                        font-weight: 200;
+                    }
+                    .slider .slide .inner .content section p {
+                        margin: 0px 0px 20px 0px;
+                        color: #ffffff;
+                        font-size: 16px;
+                        line-height: 30px;
+                        font-weight: 200;
+                    }
+                    .slider .slide .inner .content section a {
+                        display: inline-block;
+                        padding: 10px 20px 9px 20px;
+                        margin: 0px 0px 0px 0px;
+                        // background: #ffffff;
+                        border: solid 1px #ffffff;
+                        color: #ffffff;
+                        border-radius: 5px;
+                    }

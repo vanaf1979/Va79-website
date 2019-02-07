@@ -1,0 +1,54 @@
+
+
+.splash {
+    margin: 80px auto 0px auto;
+    text-align: center;
+}
+    .splash h1 {
+
+    }
+
+    .splash h4 {
+        display: none;
+    }
+
+    .splash ul {
+        display: block;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        clear: both;
+        text-align: center;
+    }
+        .splash ul li {
+            display: inline-block;
+            margin: 20px 5px 0px 5px;
+        }
+            .splash ul li a {
+                font-size: 20px;
+                text-decoration: none;
+            }
+                .splash ul li a:hover {
+                    color: darkgrey;
+                }
+
+    .splash h2 {
+        margin: 60px 0px 0px 0px;
+        font-size: 20px;
+    }
+
+    .splash article h3 {
+        margin: 30px 0px 0px 0px;
+        font-size: 16px;
+    }
+        .splash article h3 a {
+            font-size: 16px;
+            text-decoration: none;
+        }
+            .splash article h3 a:hover {
+                text-decoration: underline;
+            }
+
+    .splash article p {
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+    }

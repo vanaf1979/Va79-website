@@ -1,0 +1,375 @@
+# Translation of Plugins - CMS Tree Page View - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - CMS Tree Page View - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-01 12:59:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - CMS Tree Page View - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://eskapism.se/"
+msgstr "http://eskapism.se/"
+
+#. Author of the plugin/theme
+msgid "Pär Thernström"
+msgstr "Pär Thernström"
+
+#. Description of the plugin/theme
+msgid "Adds a CMS-like tree view of all your pages, like the view often found in a page-focused CMS. Use the tree view to edit, view, add pages and search pages (very useful if you have many pages). And with drag and drop you can rearrange the order of your pages. Page management won't get any easier than this!"
+msgstr "Voegt een CMS-achtige boomweergave toe van al je pagina's, vergelijkbaar met de weergaves die vaak gevonden worden in een pagina-gericht CMS. Gebruik de boomweergave om te bewerken, te bekijken, pagina's toe te voegen en te zoeken (erg handig bij veel pagina's). En door te verslepen kun je de volgorde aanpassen van je pagina's. Het beheren van je pagina's kan niet makkelijker worden dan dit."
+
+#. Plugin URI of the plugin/theme
+msgid "http://eskapism.se/code-playground/cms-tree-page-view/"
+msgstr "http://eskapism.se/code-playground/cms-tree-page-view/"
+
+#. Plugin Name of the plugin/theme
+msgid "CMS Tree Page View"
+msgstr "CMS Tree Page View"
+
+#: functions.php:1805
+msgid "Please see the <a href=\"%1$s\">support forum</a> for help."
+msgstr "Ga naar het <a href=\"%1$s\">support forum</a> voor hulp."
+
+#: functions.php:1804
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: functions.php:1801
+msgid "<a href=\"%1$s\">Post a nice tweet</a> or make a nice blog post about the plugin"
+msgstr "<a href=\"%1$s\">Plaats een leuke tweet</a> of maak een blogbericht over deze plugin"
+
+#: functions.php:1800
+msgid "<a href=\"%1$s\">Give a donation</a> – any amount will make me happy"
+msgstr "<a href=\"%1$s\">Doe een donatie</a> – elk bedrag word ik blij van"
+
+#: functions.php:1799
+msgid "<a href=\"%1$s\">Give it a nice review</a> over at the WordPress Plugin Directory"
+msgstr "<a href=\"%1$s\">Geef het een goede beoordeling</a> in de WordPress Plugin Directory"
+
+#: functions.php:1797
+msgid "There are serveral ways for you to show your appreciation:"
+msgstr "Er zijn verschillende manieren om je waardering te tonen:"
+
+#: functions.php:1796
+msgid "I like this plugin<br>– how can I thank you?"
+msgstr "Ik vind deze plugin leuk<br>– hoe kan ik je bedanken?"
+
+#: functions.php:1794
+msgid "/Pär Thernström - plugin creator"
+msgstr "/Pär Thernström - plugin maker"
+
+#: functions.php:1793
+msgid "Hi there! I just wanna says thanks for using my plugin. I hope you like it as much as I do."
+msgstr "Hallo daar. Ik wil je gewoon bedanken voor het gebruiken van mijn plugin. Ik hoop dat je het net zo leuk vindt als ik."
+
+#: functions.php:1791
+msgid "Thanks for using my plugin"
+msgstr "Bedankt voor het gebruiken van mijn plugin"
+
+#: functions.php:1469
+msgctxt "comment count"
+msgid "%"
+msgstr "%"
+
+#: functions.php:1469
+msgctxt "comment count"
+msgid "1"
+msgstr "1"
+
+#: functions.php:1469
+msgctxt "comment count"
+msgid "0"
+msgstr "0"
+
+#: functions.php:1459
+msgid "%s pending"
+msgstr "%s in de wacht"
+
+#: functions.php:1452
+msgid "Comments"
+msgstr "Reacties"
+
+#: functions.php:1419
+msgid "<Untitled page>"
+msgstr "<Pagina zonder titel>"
+
+#: functions.php:1411
+msgid "Unknown user"
+msgstr "Onbekende gebruiker"
+
+#: functions.php:1233
+msgctxt "headline of page with tree"
+msgid "%1$s Tree View"
+msgstr "%1$s Boomweergave"
+
+#: functions.php:1191
+msgid "Page ID"
+msgstr "Pagina-ID"
+
+#: functions.php:1188
+msgid "by"
+msgstr "door"
+
+#: functions.php:1186
+msgid "Last modified"
+msgstr "Laatst gewijzigd"
+
+#: functions.php:1176
+msgid "cancel"
+msgstr "annuleren"
+
+#: functions.php:1175
+msgid "or"
+msgstr "of"
+
+#: functions.php:1174
+msgid "Add"
+msgstr "Toevoegen"
+
+#: functions.php:1170
+msgid "Submit for Review"
+msgstr "Opgeven voor review"
+
+#: functions.php:1170
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: functions.php:1169
+msgid "Draft"
+msgstr "Concept"
+
+#: functions.php:1168
+msgid "Status"
+msgstr "Status"
+
+#: functions.php:1161
+msgid "Position"
+msgstr "Positie"
+
+#: functions.php:1156
+msgid "Enter title here"
+msgstr "Hier de titel invoeren"
+
+#: functions.php:1151
+msgid "Add page(s)"
+msgstr "Pagina(s) toevoegen"
+
+#: functions.php:1134
+msgid "Can not create page inside of a page with draft status"
+msgstr "Kan geen pagina maken binnen een pagina met de status concept"
+
+#: functions.php:1130 functions.php:1163
+msgid "Inside"
+msgstr "Binnen"
+
+#: functions.php:1125 functions.php:1162
+msgid "After"
+msgstr "Na"
+
+#: functions.php:1104
+msgid "Loading tree"
+msgstr "Boom laden"
+
+#: functions.php:1101
+msgid "Search: no pages found"
+msgstr "Zoeken: geen pagina's gevonden"
+
+#: functions.php:1096
+msgid "Loading..."
+msgstr "Laden..."
+
+#: functions.php:1089
+msgid "Nothing found."
+msgstr "Niets gevonden."
+
+#: functions.php:1088
+msgid "Searching..."
+msgstr "Zoeken..."
+
+#: functions.php:1087
+msgid "Search"
+msgstr "Zoeken"
+
+#: functions.php:1086
+msgid "Clear search"
+msgstr "Wis zoekcriteria"
+
+#: functions.php:1078
+msgid "Collapse"
+msgstr "Invouwen"
+
+#: functions.php:1077
+msgid "Expand"
+msgstr "Uitvouwen"
+
+#: functions.php:1069
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: functions.php:1064
+msgid "Public"
+msgstr "Gepubliceerd"
+
+#: functions.php:1059
+msgid "All"
+msgstr "Alle"
+
+#: functions.php:807
+msgid "Save Changes"
+msgstr "Opslaan wijzigingen"
+
+#: functions.php:788
+msgid "On post overview screen"
+msgstr "Op het overzichtscherm van het bericht"
+
+#: functions.php:784
+msgid "In menu"
+msgstr "In het Menu"
+
+#: functions.php:780
+msgid "On dashboard"
+msgstr "Op het Dashboard"
+
+#: functions.php:731
+msgid "Select where to show a tree for pages and custom post types"
+msgstr "Kies waar de boom voor pagina's en eigen berichttypes getoond wordt"
+
+#: functions.php:725
+msgid "settings"
+msgstr "instellingen"
+
+#: functions.php:702
+msgctxt "title on page with tree"
+msgid "%1$s Tree View"
+msgstr "%1$s Boomweergave"
+
+#: functions.php:701
+msgctxt "name in menu"
+msgid "Tree View"
+msgstr "Boomweergave"
+
+#: functions.php:658
+msgctxt "name of dashboard"
+msgid "%1$s Tree"
+msgstr "%1$s Boom"
+
+#: functions.php:616
+msgid "Settings"
+msgstr "Instellingen"
+
+#: functions.php:580
+msgid "List View"
+msgstr "Lijstweergave"
+
+#: functions.php:571
+msgid "Tree View"
+msgstr "Boomweergave"
+
+#: functions.php:492 functions.php:1809
+msgid "Hide until next upgrade"
+msgstr "Verbergen tot de volgende upgrade"
+
+#: functions.php:399 functions.php:1203
+msgid "No posts found."
+msgstr "Geen berichten gevonden."
+
+#: functions.php:398
+msgid "Adding ..."
+msgstr "Toevoegen..."
+
+#: functions.php:397
+msgid "Adding page..."
+msgstr "Toevoegen pagina..."
+
+#: functions.php:396
+msgid "Password protected page"
+msgstr "Wachtwoord beschermde pagina"
+
+#: functions.php:389 functions.php:395
+msgid "trash"
+msgstr "prullenbak"
+
+#: functions.php:388 functions.php:394
+msgid "private"
+msgstr "privé"
+
+#: functions.php:387 functions.php:393 functions.php:1462
+msgid "pending"
+msgstr "in de wacht"
+
+#: functions.php:386 functions.php:392
+msgid "protected"
+msgstr "beschermd"
+
+#: functions.php:385 functions.php:391
+msgid "future"
+msgstr "gepland"
+
+#: functions.php:384 functions.php:390
+msgid "draft"
+msgstr "concept"
+
+#: functions.php:383 functions.php:1130
+msgid "Add new page inside"
+msgstr "Voeg nieuwe pagina toe binnen"
+
+#: functions.php:382
+msgid "Sorry, can't create a page after a page with status \"trash\"."
+msgstr "Sorry, maar kan geen pagina aanmaken onder een pagina met status \"prullenbak\"."
+
+#: functions.php:381
+msgid "Sorry, can't create a sub page to a page with status \"trash\"."
+msgstr "Sorry, maar kan geen subpagina aanmaken voor een pagina met status \"prullenbak\"."
+
+#: functions.php:380
+msgid "Sorry, can't create a sub page to a page with status \"draft\"."
+msgstr "Sorry, kan geen subpagina maken voor een pagina met de status \"concept\"."
+
+#: functions.php:379
+msgid "inside"
+msgstr "binnen"
+
+#: functions.php:378
+msgid "after"
+msgstr "na"
+
+#: functions.php:377 functions.php:1125
+msgid "Add new page after"
+msgstr "Voeg nieuwe pagina toe na"
+
+#: functions.php:376
+msgid "Add page"
+msgstr "Pagina toevoegen"
+
+#: functions.php:375 functions.php:1117
+msgid "View"
+msgstr "Bekijken"
+
+#: functions.php:374 functions.php:1116
+msgid "Edit"
+msgstr "Bewerken"
+
+#: functions.php:373 functions.php:1117
+msgid "View page"
+msgstr "Pagina bekijken"
+
+#: functions.php:372 functions.php:1116
+msgid "Edit page"
+msgstr "Pagina bewerken"
+
+#: functions.php:371
+msgid "child pages"
+msgstr "subpagina's"
+
+#: functions.php:370
+msgid "Enter title of new page"
+msgstr "Voer de titel van de nieuwe pagina in"
+
+#: functions.php:111 functions.php:158 functions.php:1564
+msgid "Cheatin&#8217; uh?"
+msgstr "Valsspelen he?"

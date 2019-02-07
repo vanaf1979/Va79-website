@@ -1,0 +1,2484 @@
+# Copyright (C) 2019 CoBlocks
+# This file is distributed under the same license as the CoBlocks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: CoBlocks 1.8.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/coblocks\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-02-04T23:57:52+00:00\n"
+"PO-Revision-Date: 2019-02-04T23:57:52+00:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: coblocks\n"
+
+#: src/blocks/pricing-table/pricing-table-item/components/edit.js:110
+#: languages/coblocks-translations.php:6
+msgid "99"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/controls.js:34
+#: languages/coblocks-translations.php:14
+msgid "Display open"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/edit.js:72
+#: languages/coblocks-translations.php:18
+msgid "Add accordion title..."
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:39
+#: languages/coblocks-translations.php:23
+msgid "Accordion item is open by default."
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:39
+#: languages/coblocks-translations.php:28
+msgid "Toggle to set this accordion item to be open by default."
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:71
+#: languages/coblocks-translations.php:32
+msgid "Accordion Item Settings"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:73
+#: languages/coblocks-translations.php:36
+msgid "Display Open"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:80
+#: src/blocks/alert/components/inspector.js:57
+#: src/blocks/click-to-tweet/components/inspector.js:69
+#: src/blocks/dynamic-separator/components/inspector.js:64
+#: src/blocks/features/components/inspector.js:182
+#: src/blocks/features/feature/components/inspector.js:102
+#: src/blocks/highlight/components/inspector.js:67
+#: src/blocks/icon/components/inspector.js:354
+#: src/blocks/media-card/components/inspector.js:124
+#: src/blocks/pricing-table/pricing-table-item/components/inspector.js:61
+#: src/blocks/row/column/components/inspector.js:142
+#: src/blocks/row/components/inspector.js:224
+#: src/blocks/shape-divider/components/inspector.js:96
+#: src/blocks/social/components/inspector.js:191
+#: src/extensions/colors/index.js:63
+#: languages/coblocks-translations.php:51
+msgid "Color Settings"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:86
+#: src/blocks/alert/components/inspector.js:62
+#: src/blocks/features/components/inspector.js:200
+#: src/blocks/features/feature/components/inspector.js:120
+#: src/blocks/highlight/components/inspector.js:73
+#: src/blocks/icon/components/inspector.js:379
+#: src/blocks/media-card/components/inspector.js:138
+#: src/blocks/pricing-table/pricing-table-item/components/inspector.js:66
+#: src/blocks/row/column/components/inspector.js:148
+#: src/blocks/row/components/inspector.js:243
+#: src/blocks/shape-divider/components/inspector.js:107
+#: src/blocks/social/components/inspector.js:99
+#: src/components/background/index.js:82
+#: src/extensions/colors/index.js:50
+#: languages/coblocks-translations.php:65
+msgid "Background Color"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/components/inspector.js:91
+#: languages/coblocks-translations.php:69
+msgid "Title Text Color"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/index.js:25
+#: languages/coblocks-translations.php:73
+msgid "Accordion Item"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/index.js:30
+#: src/blocks/accordion/index.js:32
+#: languages/coblocks-translations.php:78
+msgid "tabs"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/index.js:31
+#: src/blocks/accordion/index.js:33
+#: languages/coblocks-translations.php:82
+msgid "faq"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/index.js:32
+#: src/blocks/accordion/index.js:34
+#: src/blocks/alert/index.js:33
+#: src/blocks/author/index.js:33
+#: src/blocks/click-to-tweet/index.js:35
+#: src/blocks/dynamic-separator/index.js:34
+#: src/blocks/features/index.js:36
+#: src/blocks/gif/index.js:32
+#: src/blocks/gist/index.js:34
+#: src/blocks/highlight/index.js:33
+#: src/blocks/icon/index.js:39
+#: src/blocks/media-card/index.js:38
+#: src/blocks/pricing-table/index.js:33
+#: src/blocks/pricing-table/pricing-table-item/index.js:32
+#: src/blocks/social/index.js:26
+#: languages/coblocks-translations.php:99
+msgid "coblocks"
+msgstr ""
+
+#: src/blocks/accordion/accordion-item/index.js:65
+#: languages/coblocks-translations.php:102
+msgid "Add collapsable accordion items to accordions."
+msgstr ""
+
+#: src/blocks/accordion/components/edit.js:115
+#: languages/coblocks-translations.php:105
+msgid "Add Accordion Item"
+msgstr ""
+
+#: src/blocks/accordion/components/inspector.js:35
+#: languages/coblocks-translations.php:108
+msgid "Accordion Settings"
+msgstr ""
+
+#: src/blocks/accordion/components/inspector.js:37
+#: languages/coblocks-translations.php:111
+msgid "Internet Explorer Support"
+msgstr ""
+
+#: src/blocks/accordion/components/inspector.js:39
+#: languages/coblocks-translations.php:114
+msgid "Add support for Internet Explorer by loading a JavaScript polyfill."
+msgstr ""
+
+#: src/blocks/accordion/components/inspector.js:39
+#: languages/coblocks-translations.php:117
+msgid "Supporting Internet Explorer by loading a JavaScript polyfill on this page."
+msgstr ""
+
+#: src/blocks/accordion/index.js:27
+#: languages/coblocks-translations.php:121
+msgid "Accordion"
+msgstr ""
+
+#: src/blocks/accordion/index.js:52
+#: languages/coblocks-translations.php:124
+msgid "Organize content within collapsable accordion items."
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:101
+#: languages/coblocks-translations.php:128
+msgid "Warning"
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:106
+#: languages/coblocks-translations.php:132
+msgid "Error"
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:82
+#: languages/coblocks-translations.php:136
+msgid "Alert Type"
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:86
+#: src/components/font-family/index.js:20
+#: src/components/typography-controls/index.js:116
+#: src/extensions/list-styles/index.js:15
+#: languages/coblocks-translations.php:142
+msgid "Default"
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:91
+#: languages/coblocks-translations.php:146
+msgid "Info"
+msgstr ""
+
+#: src/blocks/alert/components/controls.js:96
+#: languages/coblocks-translations.php:150
+msgid "Success"
+msgstr ""
+
+#: src/blocks/alert/components/edit.js:84
+#: languages/coblocks-translations.php:154
+msgid "Write title..."
+msgstr ""
+
+#: src/blocks/alert/components/edit.js:92
+#: languages/coblocks-translations.php:158
+msgid "Write text..."
+msgstr ""
+
+#: src/blocks/alert/components/inspector.js:67
+#: src/blocks/click-to-tweet/components/inspector.js:75
+#: src/blocks/features/components/inspector.js:204
+#: src/blocks/features/feature/components/inspector.js:124
+#: src/blocks/highlight/components/inspector.js:78
+#: src/blocks/pricing-table/pricing-table-item/components/inspector.js:71
+#: src/blocks/row/column/components/inspector.js:153
+#: src/blocks/row/components/inspector.js:248
+#: src/blocks/social/components/inspector.js:91
+#: src/extensions/colors/index.js:57
+#: languages/coblocks-translations.php:169
+msgid "Text Color"
+msgstr ""
+
+#: src/blocks/alert/index.js:26
+#: languages/coblocks-translations.php:173
+msgid "Alert"
+msgstr ""
+
+#: src/blocks/alert/index.js:31
+#: languages/coblocks-translations.php:177
+msgid "notice"
+msgstr ""
+
+#: src/blocks/alert/index.js:32
+#: languages/coblocks-translations.php:181
+msgid "message"
+msgstr ""
+
+#: src/blocks/alert/index.js:84
+#: languages/coblocks-translations.php:185
+msgid "Provide contextual feedback messages."
+msgstr ""
+
+#: src/blocks/author/components/controls.js:48
+#: languages/coblocks-translations.php:189
+msgid "Edit image"
+msgstr ""
+
+#: src/blocks/author/components/controls.js:56
+#: languages/coblocks-translations.php:193
+msgid "Remove image"
+msgstr ""
+
+#: src/blocks/author/components/edit.js:110
+#: languages/coblocks-translations.php:197
+msgid "Drop to add as avatar"
+msgstr ""
+
+#: src/blocks/author/components/edit.js:151
+#: languages/coblocks-translations.php:201
+msgid "Heading..."
+msgstr ""
+
+#: src/blocks/author/components/edit.js:162
+#: languages/coblocks-translations.php:205
+msgid "Author Name"
+msgstr ""
+
+#: src/blocks/author/components/edit.js:173
+#: languages/coblocks-translations.php:209
+msgid "Write biography..."
+msgstr ""
+
+#: src/blocks/author/index.js:26
+#: languages/coblocks-translations.php:213
+msgid "Author"
+msgstr ""
+
+#: src/blocks/author/index.js:31
+#: languages/coblocks-translations.php:217
+msgid "biography"
+msgstr ""
+
+#: src/blocks/author/index.js:32
+#: languages/coblocks-translations.php:221
+msgid "profile"
+msgstr ""
+
+#: src/blocks/author/index.js:46
+#: languages/coblocks-translations.php:225
+msgid "Written by..."
+msgstr ""
+
+#: src/blocks/author/index.js:70
+#: languages/coblocks-translations.php:229
+msgid "Add an author biography."
+msgstr ""
+
+#: src/blocks/click-to-tweet/components/controls.js:51
+#: languages/coblocks-translations.php:233
+msgid "Twitter Username"
+msgstr ""
+
+#: src/blocks/click-to-tweet/components/controls.js:55
+#: languages/coblocks-translations.php:237
+msgid "Username"
+msgstr ""
+
+#: src/blocks/click-to-tweet/components/edit.js:119
+#: languages/coblocks-translations.php:241
+msgid "Add button..."
+msgstr ""
+
+# the text of the click to tweet element
+#. translators: the text of the click to tweet element
+#: src/blocks/click-to-tweet/components/edit.js:92
+#: languages/coblocks-translations.php:248
+msgid "Add a quote to tweet..."
+msgstr ""
+
+#: src/blocks/click-to-tweet/components/inspector.js:61
+#: src/blocks/highlight/components/inspector.js:59
+#: languages/coblocks-translations.php:253
+msgid "Text Settings"
+msgstr ""
+
+#: src/blocks/click-to-tweet/components/inspector.js:80
+#: languages/coblocks-translations.php:257
+msgid "Button Color"
+msgstr ""
+
+#: src/blocks/click-to-tweet/index.js:28
+#: languages/coblocks-translations.php:261
+msgid "Click to Tweet"
+msgstr ""
+
+#: src/blocks/click-to-tweet/index.js:33
+#: src/blocks/social/index.js:25
+#: languages/coblocks-translations.php:266
+msgid "share"
+msgstr ""
+
+#: src/blocks/click-to-tweet/index.js:34
+#: languages/coblocks-translations.php:270
+msgid "twitter"
+msgstr ""
+
+#: src/blocks/click-to-tweet/index.js:56
+#: languages/coblocks-translations.php:274
+msgid "Tweet"
+msgstr ""
+
+#: src/blocks/click-to-tweet/index.js:82
+#: languages/coblocks-translations.php:278
+msgid "Add a quote for readers to tweet via Twitter."
+msgstr ""
+
+#: src/blocks/dynamic-separator/components/inspector.js:47
+#: languages/coblocks-translations.php:282
+msgid "Dynamic HR Settings"
+msgstr ""
+
+#: src/blocks/dynamic-separator/components/inspector.js:48
+#: src/blocks/map/components/inspector.js:165
+#: languages/coblocks-translations.php:287
+msgid "Height in pixels"
+msgstr ""
+
+#: src/blocks/dynamic-separator/components/inspector.js:56
+#: languages/coblocks-translations.php:291
+msgid "Height for the dynamic separator element in pixels."
+msgstr ""
+
+#: src/blocks/dynamic-separator/components/inspector.js:70
+#: languages/coblocks-translations.php:295
+msgid "Color"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:27
+#: languages/coblocks-translations.php:299
+msgid "Dynamic HR"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:32
+#: src/blocks/shape-divider/index.js:70
+#: languages/coblocks-translations.php:303
+msgid "hr"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:33
+#: src/blocks/shape-divider/index.js:71
+#: languages/coblocks-translations.php:307
+msgid "separator"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:54
+#: languages/coblocks-translations.php:311
+msgid "Add a resizable spacer between other blocks."
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:61
+#: languages/coblocks-translations.php:315
+msgid "Dot"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:62
+#: languages/coblocks-translations.php:319
+msgid "Line"
+msgstr ""
+
+#: src/blocks/dynamic-separator/index.js:63
+#: languages/coblocks-translations.php:323
+msgid "Fullwidth"
+msgstr ""
+
+#: src/blocks/features/components/edit.js:85
+#: src/blocks/features/feature/components/edit.js:71
+#: src/blocks/media-card/components/edit.js:179
+#: languages/coblocks-translations.php:715
+msgid "Add backround image"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:103
+msgid "Features Settings"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:105
+msgid "Columns"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:131
+#: src/blocks/row/column/components/inspector.js:108
+#: src/blocks/row/components/inspector.js:170
+#: src/components/dimensions-control/index.js:293
+#: languages/coblocks-translations.php:840
+msgid "Margin"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:152
+#: src/blocks/features/feature/components/inspector.js:81
+#: src/blocks/icon/components/inspector.js:272
+#: src/blocks/media-card/components/inspector.js:69
+#: src/blocks/row/column/components/inspector.js:120
+#: src/blocks/row/components/inspector.js:193
+#: languages/coblocks-translations.php:535
+msgid "Padding"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:173
+#: src/blocks/row/components/inspector.js:215
+#: languages/coblocks-translations.php:940
+msgid "Gutter"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:176
+#: src/blocks/row/components/inspector.js:218
+#: languages/coblocks-translations.php:944
+msgid "Space between each column."
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:95
+#: src/blocks/icon/components/inspector.js:159
+#: src/blocks/row/components/inspector.js:114
+#: src/blocks/social/components/inspector.js:77
+#: src/components/dimensions-control/index.js:429
+#: languages/coblocks-translations.php:466
+msgid "Small"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:96
+#: src/blocks/icon/components/inspector.js:164
+#: src/blocks/row/components/inspector.js:115
+#: src/blocks/social/components/inspector.js:78
+#: src/components/dimensions-control/index.js:434
+#: languages/coblocks-translations.php:473
+msgid "Medium"
+msgstr ""
+
+#: src/blocks/features/components/inspector.js:97
+#: src/blocks/icon/components/inspector.js:169
+#: src/blocks/row/components/inspector.js:116
+#: src/blocks/social/components/inspector.js:79
+#: src/components/dimensions-control/index.js:439
+#: languages/coblocks-translations.php:480
+msgid "Large"
+msgstr ""
+
+#: src/blocks/features/feature/components/inspector.js:78
+msgid "Feature Settings"
+msgstr ""
+
+#: src/blocks/features/feature/index.js:26
+msgid "Feature"
+msgstr ""
+
+#: src/blocks/features/feature/index.js:48
+msgid "A singular child column within a parent features block."
+msgstr ""
+
+#: src/blocks/features/index.js:29
+msgid "Features"
+msgstr ""
+
+#: src/blocks/features/index.js:34
+#: src/blocks/icon/index.js:38
+#: languages/coblocks-translations.php:551
+msgid "icons"
+msgstr ""
+
+#: src/blocks/features/index.js:35
+msgid "services"
+msgstr ""
+
+#: src/blocks/features/index.js:60
+msgid "Add up to three columns of small notes for your product or service."
+msgstr ""
+
+#: src/blocks/gif/components/controls.js:46
+#: languages/coblocks-translations.php:327
+msgid "Remove gif"
+msgstr ""
+
+#: src/blocks/gif/components/edit.js:157
+#: languages/coblocks-translations.php:331
+msgid "This gif has an empty alt attribute"
+msgstr ""
+
+#: src/blocks/gif/components/edit.js:252
+#: src/blocks/gist/components/edit.js:108
+#: languages/coblocks-translations.php:336
+msgid "Write caption…"
+msgstr ""
+
+#: src/blocks/gif/components/edit.js:295
+#: src/blocks/gif/index.js:26
+#: languages/coblocks-translations.php:341
+msgid "Gif"
+msgstr ""
+
+#: src/blocks/gif/components/edit.js:296
+#: languages/coblocks-translations.php:345
+msgid "Search for that perfect gif on Giphy"
+msgstr ""
+
+#: src/blocks/gif/components/edit.js:303
+#: languages/coblocks-translations.php:349
+msgid "Search for gifs"
+msgstr ""
+
+#: src/blocks/gif/components/inspector.js:37
+#: languages/coblocks-translations.php:353
+msgid "Gif Settings"
+msgstr ""
+
+#: src/blocks/gif/components/inspector.js:39
+#: src/blocks/media-card/components/inspector.js:102
+#: languages/coblocks-translations.php:358
+msgid "Alt Text (Alternative Text)"
+msgstr ""
+
+#: src/blocks/gif/components/inspector.js:42
+#: src/blocks/media-card/components/inspector.js:105
+#: languages/coblocks-translations.php:362
+msgid "Alternative text describes your image to people who can’t see it. Add a short description with its key details."
+msgstr ""
+
+#: src/blocks/gif/index.js:31
+#: languages/coblocks-translations.php:366
+msgid "animated"
+msgstr ""
+
+#: src/blocks/gif/index.js:69
+#: languages/coblocks-translations.php:370
+msgid "Pick a gif, any gif."
+msgstr ""
+
+#: src/blocks/gist/components/controls.js:39
+#: languages/coblocks-translations.php:374
+msgid "Display meta"
+msgstr ""
+
+#: src/blocks/gist/components/controls.js:52
+#: languages/coblocks-translations.php:378
+msgid "Edit Gist"
+msgstr ""
+
+#: src/blocks/gist/components/controls.js:59
+#: languages/coblocks-translations.php:382
+msgid "View Gist"
+msgstr ""
+
+#: src/blocks/gist/components/controls.js:78
+#: languages/coblocks-translations.php:386
+msgid "GitHub File"
+msgstr ""
+
+#: src/blocks/gist/components/controls.js:82
+#: languages/coblocks-translations.php:390
+msgid "File"
+msgstr ""
+
+#: src/blocks/gist/components/edit.js:126
+#: src/blocks/gist/components/inspector.js:50
+#: languages/coblocks-translations.php:395
+msgid "Gist URL"
+msgstr ""
+
+#: src/blocks/gist/components/edit.js:131
+#: languages/coblocks-translations.php:399
+msgid "Add GitHub Gist URL..."
+msgstr ""
+
+#: src/blocks/gist/components/inspector.js:29
+#: languages/coblocks-translations.php:403
+msgid "Showing gist meta data."
+msgstr ""
+
+#: src/blocks/gist/components/inspector.js:29
+#: languages/coblocks-translations.php:407
+msgid "Toggle to show the gist meta data."
+msgstr ""
+
+#: src/blocks/gist/components/inspector.js:48
+#: languages/coblocks-translations.php:411
+msgid "Gist Settings"
+msgstr ""
+
+#: src/blocks/gist/components/inspector.js:55
+#: languages/coblocks-translations.php:415
+msgid "Gist File"
+msgstr ""
+
+#: src/blocks/gist/components/inspector.js:60
+#: languages/coblocks-translations.php:419
+msgid "Gist Meta"
+msgstr ""
+
+#: src/blocks/gist/index.js:157
+#: languages/coblocks-translations.php:423
+msgid "View this gist on GitHub"
+msgstr ""
+
+#: src/blocks/gist/index.js:27
+#: languages/coblocks-translations.php:427
+msgid "Gist"
+msgstr ""
+
+#: src/blocks/gist/index.js:32
+#: src/formats/code/index.js:36
+#: languages/coblocks-translations.php:431
+msgid "code"
+msgstr ""
+
+#: src/blocks/gist/index.js:33
+#: languages/coblocks-translations.php:435
+msgid "github"
+msgstr ""
+
+#: src/blocks/gist/index.js:65
+#: languages/coblocks-translations.php:439
+msgid "Embed GitHub gists by adding the gist link."
+msgstr ""
+
+#: src/blocks/highlight/components/edit.js:114
+#: languages/coblocks-translations.php:443
+msgid "Add highlighted text..."
+msgstr ""
+
+#: src/blocks/highlight/index.js:26
+#: languages/coblocks-translations.php:447
+msgid "Highlight"
+msgstr ""
+
+#: src/blocks/highlight/index.js:31
+#: languages/coblocks-translations.php:451
+msgid "text"
+msgstr ""
+
+#: src/blocks/highlight/index.js:32
+#: languages/coblocks-translations.php:455
+msgid "paragraph"
+msgstr ""
+
+#: src/blocks/highlight/index.js:69
+#: languages/coblocks-translations.php:459
+msgid "Highlight text."
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:109
+#: src/components/typography-controls/index.js:214
+#: languages/coblocks-translations.php:543
+msgid "Size"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:173
+#: src/blocks/row/components/inspector.js:117
+#: src/components/dimensions-control/index.js:443
+#: languages/coblocks-translations.php:486
+msgid "Huge"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:184
+#: src/blocks/social/components/inspector.js:144
+#: languages/coblocks-translations.php:491
+msgid "Icon Settings"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:197
+#: src/components/dimensions-control/index.js:514
+#: languages/coblocks-translations.php:496
+msgid "Turn off advanced %s settings"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:199
+#: src/components/dimensions-control/index.js:516
+#: languages/coblocks-translations.php:501
+msgid "Reset"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:202
+#: languages/coblocks-translations.php:504
+msgid "Custom Size"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:226
+#: src/components/dimensions-control/index.js:757
+#: languages/coblocks-translations.php:509
+msgid "Custom %s size"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:254
+#: src/components/dimensions-control/index.js:786
+#: languages/coblocks-translations.php:514
+msgid "Advanced %s settings"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:257
+#: src/components/dimensions-control/index.js:789
+#: languages/coblocks-translations.php:519
+msgid "Advanced"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:264
+msgid "Radius"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:283
+#: languages/coblocks-translations.php:522
+msgid "Icon Search"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:331
+msgid "No results found."
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:336
+msgid "Link Settings"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:339
+msgid "Link URL"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:344
+msgid "Link Rel"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:349
+msgid "Opening in New Tab"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:349
+msgid "Open in New Tab"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:361
+#: languages/coblocks-translations.php:538
+msgid "Icon Color"
+msgstr ""
+
+#: src/blocks/icon/index.js:114
+#: languages/coblocks-translations.php:554
+msgid "Add a stylized graphic symbol to communicate something more."
+msgstr ""
+
+#: src/blocks/icon/index.js:123
+#: languages/coblocks-translations.php:560
+msgid "Outlined"
+msgstr ""
+
+#: src/blocks/icon/index.js:124
+#: languages/coblocks-translations.php:557
+msgid "Filled"
+msgstr ""
+
+#: src/blocks/icon/index.js:32
+#: src/blocks/social/index.js:39
+#: languages/coblocks-translations.php:548
+msgid "Icon"
+msgstr ""
+
+#: src/blocks/icon/index.js:37
+#: src/blocks/shape-divider/index.js:72
+msgid "svg"
+msgstr ""
+
+#: src/blocks/map/components/controls.js:47
+#: languages/coblocks-translations.php:563
+msgid "Map style"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:163
+#: languages/coblocks-translations.php:566
+msgid "Invalid API key, or too many requests"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:243
+#: languages/coblocks-translations.php:569
+msgid "Google Map"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:244
+#: languages/coblocks-translations.php:572
+msgid "Enter your Google API key to render a map."
+msgstr ""
+
+#: src/blocks/map/components/edit.js:244
+#: languages/coblocks-translations.php:575
+msgid "Enter an address to drop a pin on a Google map."
+msgstr ""
+
+#: src/blocks/map/components/edit.js:250
+#: languages/coblocks-translations.php:578
+msgid "Enter Google API key…"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:257
+#: src/blocks/map/components/inspector.js:141
+#: languages/coblocks-translations.php:582
+msgid "Enter address…"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:266
+#: languages/coblocks-translations.php:585
+msgid "Apply"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:274
+#: src/blocks/map/components/inspector.js:217
+#: languages/coblocks-translations.php:589
+msgid "Retrieve your key"
+msgstr ""
+
+#: src/blocks/map/components/edit.js:274
+#: src/blocks/map/components/inspector.js:217
+#: languages/coblocks-translations.php:593
+msgid "Need help?"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:115
+#: languages/coblocks-translations.php:596
+msgid "Styles"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:117
+#: languages/coblocks-translations.php:599
+msgid "Select Map Style"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:137
+#: languages/coblocks-translations.php:602
+msgid "Map Settings"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:139
+#: languages/coblocks-translations.php:605
+msgid "Address"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:147
+#: languages/coblocks-translations.php:608
+msgid "Zoom Level"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:156
+#: languages/coblocks-translations.php:611
+msgid "Marker Size"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:166
+#: languages/coblocks-translations.php:614
+msgid "Height for the map in pixels"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:178
+#: languages/coblocks-translations.php:617
+msgid "Fine control options are enabled."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:178
+#: languages/coblocks-translations.php:620
+msgid "Toggle to enable map control options."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:185
+#: languages/coblocks-translations.php:623
+msgid "Map Controls"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:189
+#: languages/coblocks-translations.php:626
+msgid "Map Type"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:192
+#: languages/coblocks-translations.php:629
+msgid "Switching between standard and satellite map views is enabled."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:192
+#: languages/coblocks-translations.php:632
+msgid "Toggle to enable switching between standard and satellite maps."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:195
+#: languages/coblocks-translations.php:635
+msgid "Zoom Controls"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:198
+#: languages/coblocks-translations.php:638
+msgid "Showing map zoom controls."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:198
+#: languages/coblocks-translations.php:641
+msgid "Toggle to enable zooming in and out on the map with zoom controls."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:201
+#: languages/coblocks-translations.php:644
+msgid "Street View"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:204
+#: languages/coblocks-translations.php:647
+msgid "Showing the street view map control."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:204
+#: languages/coblocks-translations.php:650
+msgid "Toggle to show the street view control at the bottom right."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:207
+#: languages/coblocks-translations.php:653
+msgid "Fullscreen Toggle"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:210
+#: languages/coblocks-translations.php:656
+msgid "Showing the fullscreen map control."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:210
+#: languages/coblocks-translations.php:659
+msgid "Toggle to show the fullscreen map control."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:214
+#: languages/coblocks-translations.php:662
+msgid "Google Maps API Key"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:215
+#: languages/coblocks-translations.php:665
+msgid "Add your Google Maps API key. Updating this API key will set all your maps to use the new key."
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:222
+#: languages/coblocks-translations.php:668
+msgid "Enter Google API Key…"
+msgstr ""
+
+#: src/blocks/map/components/inspector.js:230
+#: languages/coblocks-translations.php:671
+msgid "Update"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:12
+#: languages/coblocks-translations.php:674
+msgid "Standard"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:16
+#: languages/coblocks-translations.php:677
+msgid "Silver"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:20
+#: languages/coblocks-translations.php:680
+msgid "Retro"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:24
+#: src/components/background/index.js:79
+#: languages/coblocks-translations.php:685
+msgid "Dark"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:28
+#: languages/coblocks-translations.php:688
+msgid "Night"
+msgstr ""
+
+#: src/blocks/map/components/styles.js:32
+#: languages/coblocks-translations.php:691
+msgid "Aubergine"
+msgstr ""
+
+#: src/blocks/map/index.js:24
+#: languages/coblocks-translations.php:694
+msgid "Map"
+msgstr ""
+
+#: src/blocks/map/index.js:29
+#: languages/coblocks-translations.php:697
+msgid "address"
+msgstr ""
+
+#: src/blocks/map/index.js:30
+#: languages/coblocks-translations.php:700
+msgid "location"
+msgstr ""
+
+#: src/blocks/map/index.js:31
+#: languages/coblocks-translations.php:703
+msgid "google"
+msgstr ""
+
+#: src/blocks/map/index.js:96
+#: languages/coblocks-translations.php:706
+msgid "Add an address and drop a pin on a Google map."
+msgstr ""
+
+#: src/blocks/media-card/components/controls.js:34
+#: languages/coblocks-translations.php:709
+msgid "Media on right"
+msgstr ""
+
+#: src/blocks/media-card/components/controls.js:39
+#: languages/coblocks-translations.php:712
+msgid "Media on left"
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:109
+#: languages/coblocks-translations.php:718
+msgid "Card Shadow"
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:112
+#: languages/coblocks-translations.php:721
+msgid "Showing card shadow."
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:112
+#: languages/coblocks-translations.php:724
+msgid "Toggle to add a card shadow."
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:116
+#: languages/coblocks-translations.php:727
+msgid " %s Shadow"
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:119
+#: languages/coblocks-translations.php:730
+msgid "Showing %s shadow."
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:119
+#: languages/coblocks-translations.php:733
+msgid "Toggle to add an %s shadow"
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:66
+#: languages/coblocks-translations.php:736
+msgid "Media Card Settings"
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:70
+#: src/blocks/row/column/components/inspector.js:121
+#: src/blocks/row/components/inspector.js:194
+#: languages/coblocks-translations.php:742
+msgid "Space inside of the container."
+msgstr ""
+
+#: src/blocks/media-card/components/inspector.js:91
+#: languages/coblocks-translations.php:745
+msgid "Max Width"
+msgstr ""
+
+#: src/blocks/media-card/components/media-container.js:107
+#: languages/coblocks-translations.php:748
+msgid "Media"
+msgstr ""
+
+#: src/blocks/media-card/components/media-container.js:127
+#: languages/coblocks-translations.php:751
+msgid "Drop to replace media"
+msgstr ""
+
+#: src/blocks/media-card/components/media-container.js:43
+#: languages/coblocks-translations.php:754
+msgid "Edit media"
+msgstr ""
+
+#: src/blocks/media-card/index.js:31
+#: languages/coblocks-translations.php:757
+msgid "Media Card"
+msgstr ""
+
+#: src/blocks/media-card/index.js:36
+#: languages/coblocks-translations.php:761
+msgid "image"
+msgstr ""
+
+#: src/blocks/media-card/index.js:37
+#: languages/coblocks-translations.php:764
+msgid "video"
+msgstr ""
+
+#: src/blocks/media-card/index.js:92
+#: languages/coblocks-translations.php:767
+msgid "Add an image or video with an offset card side-by-side."
+msgstr ""
+
+# %s: number of tables
+#. translators: %s: number of tables
+#: src/blocks/pricing-table/components/controls.js:44
+#: languages/coblocks-translations.php:774
+msgid "%s Tables"
+msgstr ""
+
+#: src/blocks/pricing-table/components/inspector.js:32
+#: languages/coblocks-translations.php:778
+msgid "Pricing Table Settings"
+msgstr ""
+
+#: src/blocks/pricing-table/components/inspector.js:34
+#: languages/coblocks-translations.php:782
+msgid "Tables"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:26
+#: languages/coblocks-translations.php:786
+msgid "Pricing Table"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:31
+#: src/blocks/pricing-table/pricing-table-item/index.js:30
+#: languages/coblocks-translations.php:791
+msgid "landing"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:32
+#: src/blocks/pricing-table/pricing-table-item/index.js:31
+#: languages/coblocks-translations.php:796
+msgid "comparison"
+msgstr ""
+
+#: src/blocks/pricing-table/index.js:51
+#: languages/coblocks-translations.php:800
+msgid "Add pricing tables."
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/components/edit.js:101
+#: languages/coblocks-translations.php:804
+msgid "$"
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/components/edit.js:121
+#: languages/coblocks-translations.php:808
+msgid "Add features"
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/components/edit.js:31
+#: languages/coblocks-translations.php:812
+msgid "Buy Now"
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/components/edit.js:91
+#: languages/coblocks-translations.php:816
+msgid "Plan A"
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/index.js:25
+#: languages/coblocks-translations.php:820
+msgid "Pricing Table Item"
+msgstr ""
+
+#: src/blocks/pricing-table/pricing-table-item/index.js:72
+#: languages/coblocks-translations.php:824
+msgid "A column placed within the pricing table block."
+msgstr ""
+
+#. translators: %s: Lowercase block title
+#: src/blocks/row/column/components/edit.js:79
+#: src/blocks/row/components/edit.js:174
+#: languages/coblocks-translations.php:830
+msgid "Add backround image to %s"
+msgstr ""
+
+#: src/blocks/row/column/components/inspector.js:105
+#: languages/coblocks-translations.php:834
+msgid "Column Settings"
+msgstr ""
+
+#: src/blocks/row/column/components/inspector.js:109
+#: src/blocks/row/components/inspector.js:171
+#: languages/coblocks-translations.php:845
+msgid "Space around the container."
+msgstr ""
+
+#: src/blocks/row/column/components/inspector.js:132
+#: languages/coblocks-translations.php:849
+msgid "Width"
+msgstr ""
+
+#: src/blocks/row/column/index.js:26
+#: languages/coblocks-translations.php:853
+msgid "Column"
+msgstr ""
+
+#: src/blocks/row/column/index.js:51
+#: languages/coblocks-translations.php:857
+msgid "An immediate child of a row."
+msgstr ""
+
+#: src/blocks/row/components/controls.js:78
+#: languages/coblocks-translations.php:861
+msgid "Change layout"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:125
+#: languages/coblocks-translations.php:865
+msgid "one"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:127
+#: languages/coblocks-translations.php:869
+msgid "two"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:129
+#: languages/coblocks-translations.php:873
+msgid "three"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:131
+#: languages/coblocks-translations.php:877
+msgid "four"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:179
+#: languages/coblocks-translations.php:881
+msgid "One Column"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:180
+#: languages/coblocks-translations.php:885
+msgid "Two Columns"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:181
+#: languages/coblocks-translations.php:889
+msgid "Three Columns"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:182
+#: languages/coblocks-translations.php:893
+msgid "Four Columns"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:208
+#: languages/coblocks-translations.php:897
+msgid "Row Layout"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:208
+#: src/blocks/row/index.js:49
+#: languages/coblocks-translations.php:902
+msgid "Row"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:209
+#: languages/coblocks-translations.php:906
+msgid "Now select a layout for this %s column row."
+msgstr ""
+
+#: src/blocks/row/components/edit.js:209
+#: languages/coblocks-translations.php:910
+msgid "Select the number of columns for this row."
+msgstr ""
+
+#: src/blocks/row/components/edit.js:213
+#: languages/coblocks-translations.php:914
+msgid "Select Row Columns"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:239
+#: src/blocks/row/components/inspector.js:134
+#: languages/coblocks-translations.php:919
+msgid "Select Row Layout"
+msgstr ""
+
+#: src/blocks/row/components/edit.js:249
+#: languages/coblocks-translations.php:923
+msgid "Back to Columns"
+msgstr ""
+
+#: src/blocks/row/components/inspector.js:113
+#: src/components/dimensions-control/index.js:424
+#: languages/coblocks-translations.php:928
+msgid "None"
+msgstr ""
+
+#: src/blocks/row/components/inspector.js:132
+#: languages/coblocks-translations.php:932
+msgid "Layout"
+msgstr ""
+
+#: src/blocks/row/components/inspector.js:166
+#: languages/coblocks-translations.php:936
+msgid "Row Settings"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:13
+#: languages/coblocks-translations.php:948
+msgid "50/50"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:14
+#: languages/coblocks-translations.php:951
+msgid "66/33"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:15
+#: languages/coblocks-translations.php:954
+msgid "33/66"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:16
+#: languages/coblocks-translations.php:958
+msgid "75/25"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:17
+#: languages/coblocks-translations.php:962
+msgid "25/75"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:20
+#: languages/coblocks-translations.php:966
+msgid "33/33/33"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:21
+#: languages/coblocks-translations.php:970
+msgid "50/25/25"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:22
+#: languages/coblocks-translations.php:974
+msgid "25/25/50"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:23
+#: languages/coblocks-translations.php:978
+msgid "25/50/25"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:24
+#: languages/coblocks-translations.php:982
+msgid "20/60/20"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:27
+#: languages/coblocks-translations.php:986
+msgid "25/25/25/25"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:28
+#: languages/coblocks-translations.php:990
+msgid "40/20/20/20"
+msgstr ""
+
+#: src/blocks/row/components/layouts.js:29
+#: languages/coblocks-translations.php:994
+msgid "20/20/20/40"
+msgstr ""
+
+#: src/blocks/row/index.js:54
+msgid "rows"
+msgstr ""
+
+#: src/blocks/row/index.js:55
+msgid "columns"
+msgstr ""
+
+#: src/blocks/row/index.js:56
+msgid "layouts"
+msgstr ""
+
+#: src/blocks/row/index.js:87
+#: languages/coblocks-translations.php:1010
+msgid "Add a structured wrapper for column blocks, then add content blocks you’d like to the columns."
+msgstr ""
+
+#: src/blocks/shape-divider/components/controls.js:34
+#: src/components/orientation/index.js:66
+msgid "Flip horiztonally"
+msgstr ""
+
+#: src/blocks/shape-divider/components/controls.js:39
+#: src/components/orientation/index.js:55
+msgid "Flip vertically"
+msgstr ""
+
+#: src/blocks/shape-divider/components/inspector.js:102
+msgid "Shape Color"
+msgstr ""
+
+#: src/blocks/shape-divider/components/inspector.js:62
+msgid "Divider Settings"
+msgstr ""
+
+#: src/blocks/shape-divider/components/inspector.js:64
+msgid "Shape Height in pixels"
+msgstr ""
+
+#: src/blocks/shape-divider/components/inspector.js:76
+msgid "Background Height in pixels"
+msgstr ""
+
+#: src/blocks/shape-divider/components/inspector.js:88
+msgid "Orientation"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:148
+msgid "Add a shape divider to visually distinquish page sections."
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:160
+msgid "Wavy"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:161
+msgid "Hills"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:162
+msgid "Waves"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:163
+msgid "Angled"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:164
+msgid "Sloped"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:165
+msgid "Rounded"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:166
+msgid "Triangle"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:167
+msgid "Pointed"
+msgstr ""
+
+#: src/blocks/shape-divider/index.js:65
+msgid "Shape Divider"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:114
+#: languages/coblocks-translations.php:1014
+msgid "Share on Twitter"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:122
+#: languages/coblocks-translations.php:1018
+msgid "Share on Facebook"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:130
+#: languages/coblocks-translations.php:1022
+msgid "Share on Pinterest"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:138
+#: languages/coblocks-translations.php:1026
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:146
+#: languages/coblocks-translations.php:1030
+msgid "Share via Email"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:154
+#: languages/coblocks-translations.php:1034
+msgid "Share on Tumblr"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:162
+#: languages/coblocks-translations.php:1038
+msgid "Share on Google"
+msgstr ""
+
+#: src/blocks/social/components/edit.js:170
+#: languages/coblocks-translations.php:1042
+msgid "Share on Reddit"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:108
+#: languages/coblocks-translations.php:1046
+msgid "Social Settings"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:110
+#: languages/coblocks-translations.php:1050
+msgid "Social Colors"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:117
+#: languages/coblocks-translations.php:1054
+msgid "Rounded Corners"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:126
+#: languages/coblocks-translations.php:1058
+msgid "Icon Size"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:135
+#: languages/coblocks-translations.php:1062
+msgid "Button Size"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:147
+#: languages/coblocks-translations.php:1066
+msgid " Toggle the sharing links to display from the following social platforms."
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:149
+#: languages/coblocks-translations.php:1070
+msgid "Twitter"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:154
+#: languages/coblocks-translations.php:1074
+msgid "Facebook"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:159
+#: languages/coblocks-translations.php:1078
+msgid "Pinterest"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:164
+#: languages/coblocks-translations.php:1082
+msgid "LinkedIn"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:169
+#: languages/coblocks-translations.php:1086
+msgid "Email"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:174
+#: languages/coblocks-translations.php:1090
+msgid "Tumblr"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:179
+#: languages/coblocks-translations.php:1094
+msgid "Google"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:184
+#: languages/coblocks-translations.php:1098
+msgid "Reddit"
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:44
+#: languages/coblocks-translations.php:1102
+msgid "Social button colors are enabled."
+msgstr ""
+
+#: src/blocks/social/components/inspector.js:44
+#: languages/coblocks-translations.php:1106
+msgid "Toggle to use official colors from each social media platform."
+msgstr ""
+
+#: src/blocks/social/index.js:20
+#: languages/coblocks-translations.php:1110
+msgid "Social"
+msgstr ""
+
+#: src/blocks/social/index.js:33
+#: languages/coblocks-translations.php:1114
+msgid "Add social sharing buttons to help you get likes and shares."
+msgstr ""
+
+#: src/blocks/social/index.js:38
+#: languages/coblocks-translations.php:1118
+msgid "Mask"
+msgstr ""
+
+#: src/blocks/social/index.js:40
+#: languages/coblocks-translations.php:1122
+msgid "Text"
+msgstr ""
+
+#: src/blocks/social/index.js:41
+#: languages/coblocks-translations.php:1126
+msgid "Icon & Text"
+msgstr ""
+
+#: src/components/background/controls.js:49
+#: languages/coblocks-translations.php:1130
+msgid "Edit background image"
+msgstr ""
+
+#: src/components/background/controls.js:49
+#: languages/coblocks-translations.php:1134
+msgid "Add background image"
+msgstr ""
+
+#: src/components/background/controls.js:58
+#: languages/coblocks-translations.php:1138
+msgid "Remove background image"
+msgstr ""
+
+#: src/components/background/index.js:105
+#: languages/coblocks-translations.php:1230
+msgid "Background Settings"
+msgstr ""
+
+#: src/components/background/index.js:110
+#: languages/coblocks-translations.php:1142
+msgid "Position"
+msgstr ""
+
+#: src/components/background/index.js:116
+#: languages/coblocks-translations.php:1146
+msgid "Repeat"
+msgstr ""
+
+#: src/components/background/index.js:122
+#: languages/coblocks-translations.php:1150
+msgid "Display"
+msgstr ""
+
+#: src/components/background/index.js:128
+#: languages/coblocks-translations.php:1154
+msgid "Fixed Background"
+msgstr ""
+
+#: src/components/background/index.js:54
+#: languages/coblocks-translations.php:1158
+msgid "Top Left"
+msgstr ""
+
+#: src/components/background/index.js:55
+#: languages/coblocks-translations.php:1162
+msgid "Top Center"
+msgstr ""
+
+#: src/components/background/index.js:56
+#: languages/coblocks-translations.php:1166
+msgid "Top Right"
+msgstr ""
+
+#: src/components/background/index.js:57
+#: languages/coblocks-translations.php:1170
+msgid "Center Left"
+msgstr ""
+
+#: src/components/background/index.js:58
+#: languages/coblocks-translations.php:1174
+msgid "Center Center"
+msgstr ""
+
+#: src/components/background/index.js:59
+#: languages/coblocks-translations.php:1178
+msgid "Center Right"
+msgstr ""
+
+#: src/components/background/index.js:60
+#: languages/coblocks-translations.php:1182
+msgid "Bottom Left"
+msgstr ""
+
+#: src/components/background/index.js:61
+#: languages/coblocks-translations.php:1186
+msgid "Bottom Center"
+msgstr ""
+
+#: src/components/background/index.js:62
+#: languages/coblocks-translations.php:1190
+msgid "Bottom Right"
+msgstr ""
+
+#: src/components/background/index.js:66
+#: languages/coblocks-translations.php:1194
+msgid "No Repeat"
+msgstr ""
+
+#: src/components/background/index.js:68
+#: languages/coblocks-translations.php:1198
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: src/components/background/index.js:69
+#: languages/coblocks-translations.php:1202
+msgid "Repeat Vertically"
+msgstr ""
+
+#: src/components/background/index.js:73
+#: languages/coblocks-translations.php:1206
+msgid "Auto"
+msgstr ""
+
+#: src/components/background/index.js:74
+#: languages/coblocks-translations.php:1210
+msgid "Cover"
+msgstr ""
+
+#: src/components/background/index.js:75
+#: languages/coblocks-translations.php:1214
+msgid "Contain"
+msgstr ""
+
+#: src/components/background/index.js:80
+#: languages/coblocks-translations.php:1218
+msgid "Gray"
+msgstr ""
+
+#: src/components/background/index.js:81
+#: languages/coblocks-translations.php:1222
+msgid "Light"
+msgstr ""
+
+#: src/components/background/index.js:89
+#: languages/coblocks-translations.php:1226
+msgid "Image Overlay"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:409
+#: languages/coblocks-translations.php:1234
+msgid "Pixel"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:413
+#: languages/coblocks-translations.php:1237
+msgid "Em"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:417
+#: languages/coblocks-translations.php:1241
+msgid "Percentage"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:491
+#: languages/coblocks-translations.php:1245
+msgid "Select Units"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:500
+#: languages/coblocks-translations.php:1249
+msgid "%s Units"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:679
+#: languages/coblocks-translations.php:1253
+msgid "%s Top"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:690
+#: languages/coblocks-translations.php:1257
+msgid "%s Right"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:700
+#: languages/coblocks-translations.php:1261
+msgid "%s Bottom"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:710
+#: languages/coblocks-translations.php:1265
+msgid "%s Left"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:716
+#: languages/coblocks-translations.php:1269
+msgid "Unsync"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:716
+#: languages/coblocks-translations.php:1273
+msgid "Sync"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:719
+#: languages/coblocks-translations.php:1277
+msgid "Sync Units"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:737
+#: languages/coblocks-translations.php:1281
+msgid "Top"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:738
+#: languages/coblocks-translations.php:1285
+msgid "Right"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:739
+#: languages/coblocks-translations.php:1289
+msgid "Bottom"
+msgstr ""
+
+#: src/components/dimensions-control/index.js:740
+#: languages/coblocks-translations.php:1293
+msgid "Left"
+msgstr ""
+
+#: src/components/orientation/index.js:54
+msgid "Select Orientation"
+msgstr ""
+
+#: src/components/responsive-base-control/index.js:80
+msgid "Height"
+msgstr ""
+
+# Control name
+#. translators: Control name
+#: src/components/responsive-tabs/index.js:62
+#: languages/coblocks-translations.php:1300
+msgid "Mobile %s"
+msgstr ""
+
+#: src/components/typography-controls/index.js:109
+#: languages/coblocks-translations.php:1304
+msgid "Bold"
+msgstr ""
+
+#: src/components/typography-controls/index.js:120
+#: src/formats/uppercase/index.js:36
+#: languages/coblocks-translations.php:1309
+msgid "Uppercase"
+msgstr ""
+
+#: src/components/typography-controls/index.js:124
+#: languages/coblocks-translations.php:1313
+msgid "Lowercase"
+msgstr ""
+
+#: src/components/typography-controls/index.js:128
+#: languages/coblocks-translations.php:1317
+msgid "Capitalize"
+msgstr ""
+
+#: src/components/typography-controls/index.js:132
+#: languages/coblocks-translations.php:1321
+msgid "Normal"
+msgstr ""
+
+#: src/components/typography-controls/index.js:189
+#: languages/coblocks-translations.php:1325
+msgid "Font"
+msgstr ""
+
+#: src/components/typography-controls/index.js:196
+#: languages/coblocks-translations.php:1329
+msgid "Weight"
+msgstr ""
+
+#: src/components/typography-controls/index.js:205
+#: languages/coblocks-translations.php:1333
+msgid "Transform"
+msgstr ""
+
+#: src/components/typography-controls/index.js:225
+#: languages/coblocks-translations.php:1337
+msgid "Line Height"
+msgstr ""
+
+#: src/components/typography-controls/index.js:236
+#: languages/coblocks-translations.php:1341
+msgid "Letter Spacing"
+msgstr ""
+
+#: src/components/typography-controls/index.js:248
+#: languages/coblocks-translations.php:1345
+msgid "No Top Spacing"
+msgstr ""
+
+#: src/components/typography-controls/index.js:253
+#: languages/coblocks-translations.php:1349
+msgid "No Bottom Spacing"
+msgstr ""
+
+#: src/components/typography-controls/index.js:83
+#: languages/coblocks-translations.php:1352
+msgid "Change typography"
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:114
+#: languages/coblocks-translations.php:1355
+msgid "Stack on Mobile"
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:117
+#: languages/coblocks-translations.php:1358
+msgid "Responsiveness is enabled."
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:117
+#: languages/coblocks-translations.php:1361
+msgid "Toggle to stack elements on top of each other on smaller viewports."
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:122
+#: languages/coblocks-translations.php:1364
+msgid "Remove Top Spacing"
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:125
+#: languages/coblocks-translations.php:1367
+msgid "Top margin is removed on this block."
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:125
+#: languages/coblocks-translations.php:1370
+msgid "Toggle to remove any margin applied to the top of this block."
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:130
+#: languages/coblocks-translations.php:1373
+msgid "Remove Bottom Spacing"
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:140
+#: languages/coblocks-translations.php:1376
+msgid "Bottom margin is removed on this block."
+msgstr ""
+
+#: src/extensions/advanced-controls/index.js:140
+#: languages/coblocks-translations.php:1379
+msgid "Toggle to remove any margin applied to the bottom of this block."
+msgstr ""
+
+#: src/extensions/list-styles/index.js:22
+msgid "Checkbox"
+msgstr ""
+
+#: src/formats/code/index.js:21
+msgid "Code"
+msgstr ""
+
+#: src/blocks/features/feature/components/edit.js:30
+msgctxt "content placeholder"
+msgid "Add feature title..."
+msgstr ""
+
+#: src/blocks/features/feature/components/edit.js:30
+msgctxt "content placeholder"
+msgid "Feature Title"
+msgstr ""
+
+#: src/blocks/features/feature/components/edit.js:31
+msgctxt "content placeholder"
+msgid "Add feature content"
+msgstr ""
+
+#: src/blocks/features/feature/components/edit.js:31
+msgctxt "content placeholder"
+msgid "This is a feature block that you can use to highlight features."
+msgstr ""
+
+#: src/blocks/media-card/components/edit.js:46
+#: languages/coblocks-translations.php:1447
+msgctxt "content placeholder"
+msgid "Add heading..."
+msgstr ""
+
+#: src/blocks/media-card/components/edit.js:46
+#: languages/coblocks-translations.php:1450
+msgctxt "content placeholder"
+msgid "Media Card"
+msgstr ""
+
+#: src/blocks/media-card/components/edit.js:47
+#: languages/coblocks-translations.php:1453
+msgctxt "content placeholder"
+msgid "Add content..."
+msgstr ""
+
+#: src/blocks/media-card/components/edit.js:47
+#: languages/coblocks-translations.php:1456
+msgctxt "content placeholder"
+msgid "Replace this text with descriptive copy to go along with the card image. Then add more blocks to this card, such as buttons, lists or images."
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:228
+#: src/components/dimensions-control/index.js:759
+#: languages/coblocks-translations.php:1418
+msgctxt "size name"
+msgid "Normal"
+msgstr ""
+
+#: src/blocks/icon/components/inspector.js:228
+#: src/components/dimensions-control/index.js:759
+#: languages/coblocks-translations.php:1423
+msgctxt "size name"
+msgid "Custom"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:102
+msgctxt "label"
+msgid "Functions"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:107
+msgctxt "label"
+msgid "Doodle"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:112
+msgctxt "label"
+msgid "Font"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:118
+msgctxt "label"
+msgid "Heart"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:124
+msgctxt "label"
+msgid "Desktop"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:130
+msgctxt "label"
+msgid "Laptop"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:135
+msgctxt "label"
+msgid "Tablet"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:14
+msgctxt "label"
+msgid "CoBlocks"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:140
+msgctxt "label"
+msgid "Watch"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:146
+msgctxt "label"
+msgid "Hub"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:151
+msgctxt "label"
+msgid "Email"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:157
+msgctxt "label"
+msgid "Reply"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:162
+msgctxt "label"
+msgid "Send"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:168
+msgctxt "label"
+msgid "Signal"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:173
+msgctxt "label"
+msgid "Blocks"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:179
+msgctxt "label"
+msgid "Marker"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:185
+msgctxt "label"
+msgid "Mountains"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:19
+msgctxt "label"
+msgid "Audio"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:191
+msgctxt "label"
+msgid "Waves"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:196
+msgctxt "label"
+msgid "Globe"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:201
+msgctxt "label"
+msgid "City"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:206
+msgctxt "label"
+msgid "Dining"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:211
+msgctxt "label"
+msgid "Couch"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:217
+msgctxt "label"
+msgid "Cake"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:223
+msgctxt "label"
+msgid "Flower"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:25
+msgctxt "label"
+msgid "Voice"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:31
+msgctxt "label"
+msgid "Aperture"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:37
+msgctxt "label"
+msgid "Camera"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:43
+msgctxt "label"
+msgid "Gallery"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:49
+msgctxt "label"
+msgid "Video"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:55
+msgctxt "label"
+msgid "Film"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:61
+msgctxt "label"
+msgid "Color Lens"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:67
+msgctxt "label"
+msgid "Color Picker"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:73
+msgctxt "label"
+msgid "Add Circle"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:79
+msgctxt "label"
+msgid "Minus Circle"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:85
+msgctxt "label"
+msgid "Pie Chart"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:90
+msgctxt "label"
+msgid "Scatter Plot"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:96
+msgctxt "label"
+msgid "Emoticon"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:103
+msgctxt "tags"
+msgid "code greek math"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:108
+msgctxt "tags"
+msgid "drawing doodle art creative type font pencil marker"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:119
+msgctxt "tags"
+msgid "love shape valentine kiss"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:131
+msgctxt "tags"
+msgid "computer apple montior device pc desk office"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:136
+msgctxt "tags"
+msgid "computer ipad surface apple montior device pc desk office"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:141
+msgctxt "tags"
+msgid "device apple mac"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:147
+msgctxt "tags"
+msgid "usb connect hub device social"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:15
+msgctxt "tags"
+msgid "blocks block build gutenberg design"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:152
+msgctxt "tags"
+msgid "email mail os read letter"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:169
+msgctxt "tags"
+msgid "wifi radio waves"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:174
+msgctxt "tags"
+msgid "blocks block box boxes square build widgets"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:180
+msgctxt "tags"
+msgid "map directions about check checkbox"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:186
+msgctxt "tags"
+msgid "hills landscape minimal outdoors outside"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:192
+msgctxt "tags"
+msgid "ocean outside outdoors water fun summer minimal"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:197
+msgctxt "tags"
+msgid "world public global earth location map"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:20
+msgctxt "tags"
+msgid "music microphone podcast song artist creative media audio"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:202
+msgctxt "tags"
+msgid "location map public business corporation building town skyscraper"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:207
+msgctxt "tags"
+msgid "food drink restaurant menu fork spoon taste"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:212
+msgctxt "tags"
+msgid "weekend chill relax chair"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:218
+msgctxt "tags"
+msgid "fun party happy celebration tast food"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:224
+msgctxt "tags"
+msgid "petal scent smell nice relax landscape gardening outdoors outside"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:26
+msgctxt "tags"
+msgid "microphone podcast computer device music microphone song artist creative media audio"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:32
+msgctxt "tags"
+msgid "photo photographer photography camera film creative media"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:38
+msgctxt "tags"
+msgid "photo photographer photography camera aperture film creative media"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:44
+msgctxt "tags"
+msgid "photo photos image media camera aperture collection"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:50
+msgctxt "tags"
+msgid "film videography director producer media creative"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:56
+msgctxt "tags"
+msgid "video videography director producer media creative camera photographer photography aperture"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:68
+msgctxt "tags"
+msgid "palette design colors artist paint creative media"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:80
+msgctxt "tags"
+msgid "add minus circle insert plus round math"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:86
+msgctxt "tags"
+msgid "stats round circle pie chart graph"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:91
+msgctxt "tags"
+msgid "stats round circle pie chart graph dots data"
+msgstr ""
+
+#: src/blocks/icon/components/svgs.js:97
+msgctxt "tags"
+msgid "happy emotion emoticon smile fun joy"
+msgstr ""
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: languages/coblocks-translations.php:1385
+msgid "CoBlocks"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: languages/coblocks-translations.php:1391
+msgid "https://coblocks.com/"
+msgstr ""
+
+#. Description of the plugin
+#: languages/coblocks-translations.php:1395
+msgid "CoBlocks is a suite of professional <strong>page building content blocks</strong> for the WordPress Gutenberg block editor. Our blocks are hyper-focused on empowering makers to build beautifully rich pages in WordPress."
+msgstr ""
+
+#: languages/coblocks-translations.php:525
+msgid "Nothing found"
+msgstr ""
+
+#: languages/coblocks-translations.php:528
+msgid "Border Radius"
+msgstr ""
+
+#: languages/coblocks-translations.php:998
+msgid "row"
+msgstr ""
+
+#: languages/coblocks-translations.php:1002
+msgid "column"
+msgstr ""
+
+#: languages/coblocks-translations.php:1006
+msgid "layout"
+msgstr ""
+
+#: languages/coblocks-translations.php:1398
+msgid "list"
+msgstr ""
+
+#: languages/coblocks-translations.php:1401
+msgid "Add an accordion item."
+msgstr ""
+
+#: languages/coblocks-translations.php:1404
+msgid "Add an accordion."
+msgstr ""
+
+#: languages/coblocks-translations.php:1407
+msgid "Describe the purpose of the image. Leave empty if the image is not a key part of the content."
+msgstr ""
+
+#: languages/coblocks-translations.php:1410
+msgid "icon"
+msgstr ""
+
+#: languages/coblocks-translations.php:1413
+msgid "Typography Settings"
+msgstr ""
+
+#: languages/coblocks-translations.php:1426
+msgctxt "icon search tags"
+msgid "add minus circle insert plus round math"
+msgstr ""
+
+#: languages/coblocks-translations.php:1429
+msgctxt "icon search tags"
+msgid "stats round circle pie chart graph"
+msgstr ""
+
+#: languages/coblocks-translations.php:1432
+msgctxt "icon search tags"
+msgid "happy emotion emoticon smile fun joy"
+msgstr ""
+
+#: languages/coblocks-translations.php:1435
+msgctxt "icon search tags"
+msgid "code greek math"
+msgstr ""
+
+#: languages/coblocks-translations.php:1438
+msgctxt "icon search tags"
+msgid "drawing doodle art creative type font pencil marker"
+msgstr ""
+
+#: languages/coblocks-translations.php:1441
+msgctxt "icon search tags"
+msgid "love shape valentine kiss"
+msgstr ""
+
+#: languages/coblocks-translations.php:1444
+msgctxt "icon search tags"
+msgid "stats round circle pie chart graph dots data"
+msgstr ""
