@@ -1,6 +1,69 @@
 
 
 .slider {
-    background: rgba(0, 101, 155, 0.7);;
-    height: 500px;
+    height: 450px;
 }
+    .slider .swiper-wrapper {
+        height: 100%;
+    }
+        .slider .swiper-wrapper .swiper-slide {
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .slider .swiper-wrapper .swiper-slide:before {
+            content: "";
+            display: block;
+            position: absolute;
+            float: left;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 101, 155, 0.6);;
+        }
+
+        .slider .swiper-wrapper .swiper-slide .inner {
+            position: absolute;
+            width: 100%;
+            max-width: 1080px;
+            height: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+            .slider .swiper-wrapper .swiper-slide .inner article {
+                display: inline-block;
+                position: absolute;
+                width: 60%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+                .slider .swiper-wrapper .swiper-slide .inner article h2 {
+                    font-size: 28px;
+                    font-weight: 200;
+                    color: #ffffff;
+                }
+                .slider .swiper-wrapper .swiper-slide .inner article p {
+                    color: #ffffff;
+                }
+                .slider .swiper-wrapper .swiper-slide .inner article a {
+                    color: #ffffff;
+                }
+
+    .slider .swiper-button-prev, .home-slider .swiper-container-rtl .swiper-button-next {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    }
+    .slider .swiper-button-next, .home-slider .swiper-container-rtl .swiper-button-prev {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E");
+    }
+    
+    .slider .swiper-pagination {
+        text-align: left;
+        margin: 0px 0px 0px 10px;
+    }
+        .slider .swiper-pagination  .swiper-pagination-bullet {
+            opacity: 1;
+            background: rgba(255, 255, 255, 0.3 );
+        }
+            .slider .swiper-pagination  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+                opacity: 1;
+                background: rgba(255, 255, 255, 0.9 );
+            }
