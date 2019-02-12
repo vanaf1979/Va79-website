@@ -52,7 +52,7 @@ class Functions_Global
 		remove_action( 'wp_head', 'wp_oembed_add_discovery_links' );
 		remove_action( 'wp_head', 'wp_oembed_add_host_js' );
 		add_filter( 'embed_oembed_discover', '__return_false' );
-		add_filter( 'rewrite_rules_array', 'disable_embeds_rewrites' );
+		add_filter( 'rewrite_rules_array', '__return_false' );
 		add_filter('rest_enabled', '__return_false');
 		add_filter('rest_jsonp_enabled', '__return_false');
 	}

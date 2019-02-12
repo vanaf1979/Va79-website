@@ -39,7 +39,7 @@ class Functions
 			$this->loader->add_action( 'wp_enqueue_scripts', $functions_public, 'enqueue_styles' );
 			$this->loader->add_action( 'wp_enqueue_scripts', $functions_public, 'enqueue_scripts' );
 
-			$this->loader->add_action( 'after_setup_theme' , $functions_public , 'theme_support' , 1 , 1 );
+			$this->loader->add_action( 'after_setup_theme' , $functions_public , 'add_theme_support' , 1 , 1 );
 			$this->loader->add_action( 'setup_theme' , $functions_public , 'register_thumbnail_sizes' , 1 );
 		}
 	}
