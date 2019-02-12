@@ -2067,23 +2067,22 @@ select:-moz-focusring {
 */
 html, body {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 * {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #555555;
+  font-size: 13px;
+  color: #444756;
   font-weight: 200;
-  letter-spacing: 1.1px;
+  line-height: 1.8em;
+  letter-spacing: 1.2px;
   -webkit-text-size-adjust: 100%;
      -moz-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
           text-size-adjust: 100%;
-  
   /*
-  --  Font Smoothing: 
-  --  Can be used by preverence
+  --  Below can be used by preverence
   */
   /*-webkit-font-smoothing: none;*/
   /*-webkit-font-smoothing: subpixel-antialiased;*/
@@ -2097,47 +2096,47 @@ h4, h4 a,
 h5, h5 a,
 h6, h6 a {
   display: block;
+  font-weight: 200;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  font-weight: 200;
-  color: #00659b;
+  color: #444756;
   text-decoration: none;
 }
 
 h1, h1 a {
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-  line-height: 2.0rem;
+  font-size: 2.0rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 
 h2, h2 a {
-  margin-bottom: 0.8rem;
-  font-size: 1.6rem;
-  line-height: 1.8rem;
+  font-size: 1.8rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 
 h3, h3 a {
-  margin-bottom: 0.6rem;
-  font-size: 1.4rem;
-  line-height: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
 }
 
 h4, h4 a {
-  margin-bottom: 0.4rem;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.1em;
+  margin-bottom: 0.5rem;
 }
 
 h5, h5 a {
-  margin-bottom: 0.2rem;
-  font-size: 1.0rem;
-  line-height: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.1em;
+  margin-bottom: 0.5rem;
 }
 
 h6, h6 a {
-  margin-bottom: 0rem;
-  font-size: 0.8rem;
-  line-height: 1.0rem;
+  font-size: 1.0rem;
+  line-height: 1.1em;
+  margin-bottom: 0.5rem;
 }
 
 h1 a:hover,
@@ -2155,15 +2154,16 @@ p + h3,
 p + h4,
 p + h5,
 p + h6 {
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
 }
 
 p {
   display: inline-block;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px .5rem 0px;
   font-size: 1em;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
+  margin-bottom: .5rem;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 15px 0px;
 }
 
 p a,
@@ -2188,50 +2188,30 @@ a:hover {
   text-decoration: underline;
 }
 
-/*
--- Schema.org spans
-*/
-span[itemprop] {
-  all: inherit;
-  padding: 0px;
-  margin: 0px;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  color: inherit;
-}
-
 img {
   display: block;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
 
-.fa {
-  line-height: 100%;
-  vertical-align: middle;
-  //font: normal normal normal 14px/16px FontAwesome;
-}
-
 /*
 -- Wordpress image alignment classes
 */
 img.alignleft {
-  margin: 0px 10px 10px 0px;
   float: right;
+  margin: 0px 10px 10px 0px;
 }
 
 img.alignright {
-   margin: 0px 0px 10px 10px;
   float: right;
+  margin: 0px 0px 10px 10px;
 }
 
 ul, ol {
   display: inline-block;
+  line-height: 1.4em;
   margin-bottom: .5rem;
   margin-left: 15px;
-  line-height: 1.4em;
 }
 
 ul {
@@ -2256,24 +2236,24 @@ ol:after {
 
 ul.coloured {
   display: inline-block;
-  margin-bottom: .5rem;
-  margin-left: 12px;
   list-style: none;
   line-height: 1.4em;
+  margin-bottom: .5rem;
+  margin-left: 12px;
 }
 
 ul.coloured li:before {
   content: "\2022";
-  display: inline-block;
-  width: 12px;
-  margin: 1px 0px 0px -12px;
   font-weight: 700;
   color: lightblue;
-  float: left;
+  display: inline-block;
+  width: 12px;
+  float:left;
+  margin: 1px 0px 0px -12px;
 }
 
 li {
-  line-height: 1.8rem;
+  line-height: 1.4em;
 }
 
 section,
@@ -2283,9 +2263,9 @@ address {
 }
 
 hr {
-  height: 1px;
   border: none;
   border-bottom: dotted 1px #bbbbbb;
+  height: 1px;
 }
 
 embed,
@@ -2328,10 +2308,10 @@ sub {
 
 sup,
 sub {
-  height: 0;
-  position: relative;
   font-size: 0.75rem;
+  height: 0;
   line-height: 1rem;
+  position: relative;
   vertical-align: baseline;
 }
 
@@ -2344,22 +2324,22 @@ acronym {
 
 pre {
   display: block;
+  line-height: 1.4em;
   margin: 10px 0px 10px 0px;
   padding: 15px 15px 15px 15px;
-  overflow: auto;
   background: #f4f5f6;
   border-left: solid 2px lightblue;
   font-family: Courier , monospace;
-  line-height: 1.4em;
+  overflow: auto;
 }
 
 aside {
   display: block;
+  line-height: 1.8em;
   margin: 10px 0px 10px 0px;
   padding: 10px 15px 10px 15px;
   background: #f4f5f6;
   border-left: solid 2px lightblue;
-  line-height: 1.8em
 }
 
 aside.success {
@@ -2376,11 +2356,11 @@ aside.danger {
 
 blockquote {
   display: block;
+  line-height: 1.8em;
   margin: 10px 0px 10px 0px;
   padding: 10px 15px 10px 15px;
   background: #f4f5f6;
   border-left: solid 2px lightblue;
-  line-height: 1.8em;
 }
 
 blockquote:before {
@@ -2450,7 +2430,56 @@ blockquote p {
 /* Import External Fonts */
 /* Import utilities */
 /* Import theme css files */
-.main-nav {
-  height: 60px;
-  nackground: #efefef;
+* {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+html, body {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+#app {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.main-nav .logo a {
+  display: block;
+  margin: 10px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.main-nav .nav {
+  text-align: right;
+}
+
+.main-nav .nav .mainmenu {
+  display: inline-block;
+}
+
+.main-nav .nav ul {
+  display: inline-block;
+  margin: 22px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  list-style: none;
+}
+
+.main-nav .nav ul li {
+  display: inline-block;
+  margin: 0px 0px 0px 20px;
+}
+
+.main-nav .nav ul li a {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.slider {
+  background: rgba(0, 101, 155, 0.7);
+  height: 500px;
 }

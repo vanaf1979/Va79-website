@@ -4,7 +4,7 @@
 
         <div class="logo pure-u-1 pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
             
-            <a href="">va79sdfsdsdf</a>
+            <a href="">VA79</a>
 
         </div>
 
@@ -17,10 +17,10 @@
             ?>
             <ul class="lang">
                 <li>
-                    <a href="<?php echo $lang['nl']['url']; ?>">Nl</a>
+                    <a href="<?php echo $lang['nl']['url']; ?>">NL</a>
                 </li>
                 <li>
-                    <a href="<?php echo $lang['en']['url']; ?>">En</a>
+                    <a href="<?php echo $lang['en']['url']; ?>">EN</a>
                 </li>
             </ul>
         </div>

@@ -1,5 +1,33 @@
 
 .main-nav {
-    height: 60px;
-    nackground: #efefef;
+    
 }
+    .main-nav .logo a {
+        display: block;
+        margin: 10px 0px 10px 0px;
+        padding: 0px 0px 0px 0px;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .main-nav .nav {
+        text-align: right;
+    }
+        .main-nav .nav .mainmenu {
+            display: inline-block;
+        }
+        .main-nav .nav ul {
+            display: inline-block;
+            margin: 22px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+            list-style: none;
+        }
+            .main-nav .nav ul li {
+                display: inline-block;
+                margin: 0px 0px 0px 20px;
+            }
+                .main-nav .nav ul li a {
+                    font-weight: 400;
+                    font-size: 14px;
+                }

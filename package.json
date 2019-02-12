@@ -31,6 +31,7 @@
     "purecss": "^1.0.0",
     "sass": "^1.16.1",
     "sass-loader": "^7.1.0",
-    "slideout": "^1.0.1"
+    "slideout": "^1.0.1",
+    "swiper": "^4.4.6"
   }
 }

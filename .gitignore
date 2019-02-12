@@ -1,5 +1,7 @@
 /shared
 /app/upgrade/
+/app/languages/
+/app/cache/
 .DS_Store
 
 /node_modules
