@@ -12,7 +12,7 @@ mix.autoload({})
 .sass( themePath + 'src/css/header.scss', themePath + 'public/css/header.css')
 .sass( themePath + 'src/css/footer.scss', themePath + 'public/css/footer.css')
 .sass( themePath + 'src/css/style.scss', themePath + 'style.css')
-.copy('src/js/sw.js', themePath + 'public/js/sw.js')
+.copy( themePath + 'src/js/sw.js', themePath + 'public/js/sw.js')
 .options({
   processCssUrls: false,
   autoprefixer: {
