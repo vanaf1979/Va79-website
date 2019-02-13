@@ -1,6 +1,6 @@
 <?php defined( 'ABSPATH' ) or die( 'Go eat veggies!' ); ?>
 
-<?php get_template_part('parts/header'); ?>
+<?php get_template_part('components/header'); ?>
 
     <body <?php body_class(); ?>>
 
@@ -11,6 +11,9 @@
 
             
             <?php get_template_part('components/slider'); ?>
+
+
+            <?php get_template_part('components/intro'); ?>
 
         
         </div>

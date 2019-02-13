@@ -2,6 +2,7 @@
 /* Import utilities. */
 var utils = require('./components/utils/index.js');
 var slider = require('./components/slider/index.js');
+var intro = require('./components/intro/index.js');
 
 
 /* Import components. */
@@ -15,5 +16,7 @@ utils.domready( () => {
     scriptLoaders.init();
 
     slider.init();
+
+    intro.init();
 
 })
