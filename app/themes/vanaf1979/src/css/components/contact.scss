@@ -1,0 +1,50 @@
+
+
+.contact {
+    background: #202020;
+    background-image: url(/app/themes/vanaf1979/public/img/adam-solomon-472458-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .contact .inner {
+        padding: 60px 0px 60px 0px;
+        background: rgba( 0 , 0 , 0 , 0.9);
+    }
+    .contact header {
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+        .contact header h3 {
+            color: #bbbbbb;
+            font-size: 30px;
+        }
+            .contact header h3:after {
+                content: "";
+                display: block;
+                width: 50px;
+                margin: 10px auto 5px auto;
+                height: 1px;
+                border-bottom: dotted 1px #9bb7d4;
+            }
+        .contact header p {
+            color: #bbbbbb;
+        }
+
+    .contact .left .va-formwrapper {
+        margin: 0px 10px 20px 0px;
+    }
+    .contact .right .va-formwrapper {
+        margin: 0px 0px 20px 10px;
+    }
+
+        .contact .va-formwrapper input[type="submit"] {
+            color: #bbbbbb;
+            margin: 10px auto 0px auto;
+            transition: all 0.2s ease;
+        }
+            .contact .va-formwrapper input[type="submit"]:hover {
+                color: #323232;
+                background: #bbbbbb;
+                margin: 10px auto 0px auto;
+            }

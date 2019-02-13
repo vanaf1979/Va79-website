@@ -15,7 +15,12 @@
 
             <?php get_template_part('components/intro'); ?>
 
-        
+
+            <?php get_template_part('components/contact'); ?>
+
+
+            <?php get_template_part('components/footer'); ?>
+
         </div>
 
         <?php wp_footer(); ?>

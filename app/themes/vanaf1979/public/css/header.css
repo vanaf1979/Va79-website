@@ -1820,7 +1820,7 @@ input[type="password"] {
   height: 37px;
   font-size: 14px;
   color: #aaaaaa;
-  padding: 0px 5px 2px 10px;
+  padding: 2px 5px 2px 10px;
   outline: none;
   border-radius: 3px;
 }
@@ -1842,7 +1842,7 @@ textarea {
 
 /* -- Focused form ellements -- */
 textarea:focus, input:focus {
-  border: 1px solid #555555;
+  border: 1px solid #777777;
 }
 
 /* -- Button ellement -- */
@@ -2626,4 +2626,125 @@ html, body {
 #bp_container img {
   border-radius: 1000px;
   overflow: hidden;
+}
+
+.contact {
+  background: #202020;
+  background-image: url(/app/themes/vanaf1979/public/img/adam-solomon-472458-unsplash.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact .inner {
+  padding: 60px 0px 60px 0px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.contact header {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+
+.contact header h3 {
+  color: #bbbbbb;
+  font-size: 30px;
+}
+
+.contact header h3:after {
+  content: "";
+  display: block;
+  width: 50px;
+  margin: 10px auto 5px auto;
+  height: 1px;
+  border-bottom: dotted 1px #9bb7d4;
+}
+
+.contact header p {
+  color: #bbbbbb;
+}
+
+.contact .left .va-formwrapper {
+  margin: 0px 10px 20px 0px;
+}
+
+.contact .right .va-formwrapper {
+  margin: 0px 0px 20px 10px;
+}
+
+.contact .va-formwrapper input[type=submit] {
+  color: #bbbbbb;
+  margin: 10px auto 0px auto;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.contact .va-formwrapper input[type=submit]:hover {
+  color: #323232;
+  background: #bbbbbb;
+  margin: 10px auto 0px auto;
+}
+
+.footer {
+  padding: 30px 0px 10px 0px;
+  background: #121212;
+}
+
+.footer section {
+  margin: 0px 20px 0px 20px;
+}
+
+.footer .first section {
+  margin: 0px 60px 0px 20px;
+}
+
+.footer section h5 {
+  font-size: 15px;
+  color: #98a4af;
+}
+
+.footer section p {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.footer section ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+.footer section ul li span {
+  padding: 0px 4px 0px 0px;
+  color: #ffffff;
+}
+
+.footer section ul li a {
+  color: #ffffff;
+}
+
+.footer .meta {
+  padding: 20px 20px 0px 20px;
+  text-align: center;
+}
+
+.footer .meta p {
+  width: 100%;
+  font-size: 12px;
+  color: #98a4af;
+  text-align: center;
+  line-height: 16px;
+}
+
+.footer .meta p a {
+  color: #98a4af;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer .meta p a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }

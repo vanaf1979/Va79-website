@@ -277,8 +277,6 @@ var slider = {
     });
   },
   activateSwiper: function activateSwiper() {
-    var _this2 = this;
-
     if (!this.swiper) {
       this.swiper = new Swiper(this.slider, {
         slidesPerView: 1,
@@ -300,15 +298,12 @@ var slider = {
         }
       }); // Swiper Events
 
-      this.swiper.on('init', function () {
-        console.debug('Slider entered the viewport and was initialized');
+      this.swiper.on('init', function () {//console.debug( 'Slider entered the viewport and was initialized' );
       });
-      this.swiper.on('slideChangeTransitionEnd', function () {
-        // var currentSlide = this.swiper.slides[ this.swiper.realIndex ];
-        console.debug('Slider is now showwing slide nr: ' + _this2.swiper.realIndex);
+      this.swiper.on('slideChangeTransitionEnd', function () {// var currentSlide = this.swiper.slides[ this.swiper.realIndex ];
+        //console.debug( 'Slider is now showwing slide nr: ' + this.swiper.realIndex );
       });
-      this.swiper.on('destroy', function () {
-        console.debug('Slider left the viewport and was destroyed');
+      this.swiper.on('destroy', function () {//console.debug( 'Slider left the viewport and was destroyed' );
       });
     }
   },

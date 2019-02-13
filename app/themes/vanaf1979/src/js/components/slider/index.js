@@ -66,18 +66,18 @@ var slider = {
             // Swiper Events
 
             this.swiper.on('init', () => {
-                console.debug( 'Slider entered the viewport and was initialized' );
+                //console.debug( 'Slider entered the viewport and was initialized' );
             });
 
 
             this.swiper.on('slideChangeTransitionEnd', () => {
                 // var currentSlide = this.swiper.slides[ this.swiper.realIndex ];
-                console.debug( 'Slider is now showwing slide nr: ' + this.swiper.realIndex );
+                //console.debug( 'Slider is now showwing slide nr: ' + this.swiper.realIndex );
             });
 
 
             this.swiper.on('destroy', () => {
-                console.debug( 'Slider left the viewport and was destroyed' );
+                //console.debug( 'Slider left the viewport and was destroyed' );
             });
 
         }
