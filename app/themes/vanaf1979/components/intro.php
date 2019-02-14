@@ -10,9 +10,9 @@
                     <img src="/app/themes/vanaf1979/public/img/avatar.jpg" alt="" />
                 </a>
 
-                <h1>Wordpress developer heading</h1>
+                <h1>Va79 Wordpress Developer</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Hi! My name is Stephan Nijman born back in 1979 in the Netherlands.<br/>I"m the creator of the <a href="https://seobox.vanaf1979.nl" target="_blank"">Wordpress Seobox plugin</a>, Writer of <a href="https://medium.com/@vanaf1979" target="_blank"">Wordpress recap articles and tutorials</a>. And a Wordpress webdeveloper at <a href="http://granmedia.nl" target="_blank"">Granmedia</a>.</p>
 
                 <ul>
                     <li>

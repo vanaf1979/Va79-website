@@ -6,11 +6,15 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background: #2c3339;
 }
-    .contact .inner {
+     .contact .inner {
         padding: 60px 0px 60px 0px;
-        background: rgba( 0 , 0 , 0 , 0.9);
+        // background: rgba( 0 , 0 , 0 , 0.9);
     }
+        .contact .inner .va-grid-center {
+            padding: 0px 40px 0px 40px;
+        }
     .contact header {
         text-align: center;
         margin: 0px 0px 20px 0px;
@@ -19,14 +23,6 @@
             color: #bbbbbb;
             font-size: 30px;
         }
-            .contact header h3:after {
-                content: "";
-                display: block;
-                width: 50px;
-                margin: 10px auto 5px auto;
-                height: 1px;
-                border-bottom: dotted 1px #9bb7d4;
-            }
         .contact header p {
             color: #bbbbbb;
         }
@@ -39,12 +35,12 @@
     }
 
         .contact .va-formwrapper input[type="submit"] {
+            margin: 20px auto 0px auto;
+            padding: 2px 20px 2px 20px;
+            height: 36px;
             color: #bbbbbb;
-            margin: 10px auto 0px auto;
             transition: all 0.2s ease;
         }
             .contact .va-formwrapper input[type="submit"]:hover {
-                color: #323232;
-                background: #bbbbbb;
-                margin: 10px auto 0px auto;
+                padding: 2px 25px 2px 25px;
             }

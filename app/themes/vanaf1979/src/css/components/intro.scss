@@ -19,10 +19,29 @@
             border:solid 1px #00659b;
         }
 
+        .home-intro article h1 {
+            display: block;
+            font-size: 30px;
+            color: #00659b;
+        }
+        .home-intro article p {
+            display: block;
+            margin: 15px auto 10px auto;
+            max-width: 700px;
+        }
+            .home-intro article p a {
+                color: #00659b;
+                text-decoration: none;
+            }
+                .home-intro article p a:hover {
+                    text-decoration: underline;
+                }
+
         .home-intro article ul {
             display: inline-block;
             margin: 15px 0px 0px 0px;
             padding: 0px 0px 0px 0px;
+            clear: both;
             list-style: none;
         }   
             .home-intro article ul li {
