@@ -2688,6 +2688,95 @@ html, body {
   overflow: hidden;
 }
 
+/* NIEUWS */
+.projectsheader {
+  margin: 60px 0px 40px 0px;
+  text-align: center;
+}
+
+.projectsheader h2 {
+  font-size: 30px;
+  color: #00659b;
+}
+
+.projects {
+  margin: 0px auto 60px auto;
+}
+
+.projects .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+  margin: 0px auto 20px auto;
+}
+
+.projects .item:nth-child(even) {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-flow: row-reverse;
+          flex-flow: row-reverse;
+}
+
+.projects .item .image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.projects .item .text article {
+  margin: 50px 50px 0px 50px;
+}
+
+.projects .item .text article h3 {
+  color: #00659b;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.projects .item .text article a {
+  display: inline-block;
+  width: auto;
+  padding: 2px 6px 3px 6px;
+  border: solid 1px #bbbbbb;
+  color: #444756;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.projects .item .text article a:hover {
+  border: solid 1px #00659b;
+  color: #00659b;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 568px) {
+  .projects .item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+            flex-flow: column;
+    margin: 0px auto 20px auto;
+  }
+
+  .projects .item:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-flow: column;
+            flex-flow: column;
+  }
+
+  .projects .item .text article {
+    margin: 20px 0px 40px 0px;
+  }
+}
 .contact {
   background: #202020;
   background-image: url(/app/themes/vanaf1979/public/img/adam-solomon-472458-unsplash.jpg);

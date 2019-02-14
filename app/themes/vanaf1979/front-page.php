@@ -18,6 +18,9 @@
 
             <?php get_template_part('components/intro'); ?>
 
+           
+            <?php get_template_part('components/projects'); ?>
+
 
             <?php get_template_part('components/contact'); ?>
 
