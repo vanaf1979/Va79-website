@@ -12,6 +12,9 @@
             
             <?php get_template_part('components/slider'); ?>
 
+            
+            <?php get_template_part('components/breadcrumbs'); ?>
+
 
             <?php get_template_part('components/intro'); ?>
 
