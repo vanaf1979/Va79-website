@@ -641,3 +641,12 @@ Stack trace:
 [12-Feb-2019 10:09:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
 [12-Feb-2019 10:09:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
 [12-Feb-2019 10:09:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[14-Feb-2019 13:48:23 UTC] PHP Notice:  Undefined variable: theme in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php on line 26
+[14-Feb-2019 13:48:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_content() on null in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php:26
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template-loader.php(74): include()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(19): require_once('/Users/saskia/D...')
+#2 /Users/saskia/Documents/repos/websites/va79-website/index.php(4): require('/Users/saskia/D...')
+#3 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/saskia/D...')
+#4 {main}
+  thrown in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php on line 26

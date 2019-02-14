@@ -21,4 +21,11 @@ function run_functions()
 	$functions->run();
 }
 run_functions();
+
+
+require_once get_template_directory() . '/functions/class-functions-utils.php';
+
+global $theme;
+$theme = new Theme_Utils();
+set_query_var( 'theme' , $theme );
 ?>

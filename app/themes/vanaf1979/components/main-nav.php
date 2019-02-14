@@ -4,7 +4,7 @@
 
         <div class="logo pure-u-1 pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
             
-            <a href="">VA79</a>
+            <a href="/">VA79</a>
 
         </div>
 

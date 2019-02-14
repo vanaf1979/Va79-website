@@ -16,25 +16,28 @@
 
                 <ul>
                     <li>
-                        <a href="https://twitter.com/Vanaf1979" title="Volg Vanaf1979 op Twitter" class="fab fa-twitter" target="_blank"></a>
+                        <a href="https://www.linkedin.com/in/stephannijman/" title="LinkedIn" class="fab fa-linkedin" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://medium.com/@vanaf1979" title="Volg Vanaf1979 op Medium" class="fab fa-medium" target="_blank"></a>
+                        <a href="https://medium.com/@vanaf1979" title="Medium" class="fab fa-medium" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://github.com/vanaf1979" title="Volg Vanaf1979 op Github" class="fab fa-github" target="_blank"></a>
+                        <a href="https://twitter.com/Vanaf1979" title="Twitter" class="fab fa-twitter" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://stackoverflow.com/users/8279555/va79?tab=profile" title="Volg Vanaf1979 op Stack Overflow" class="fab fa-stack-overflow" target="_blank"></a>
+                        <a href="https://github.com/vanaf1979" title="Github" class="fab fa-github" target="_blank"></a>
                     </li>
                     <li>
-                        <a href="https://mix.com/vanaf1979" title="Volg Vanaf1979 op Mix" class="fab fa-mix" target="_blank"></a>
+                    <a href="https://www.reddit.com/user/vanaf1979/" title="Reddit" class="fab fa-reddit" target="_blank"></a>
                     </li>
                     <li>
-                    <a href="https://www.reddit.com/user/vanaf1979/" title="Volg Vanaf1979 op Reddit" class="fab fa-reddit" target="_blank"></a>
+                        <a href="https://stackoverflow.com/users/8279555/va79?tab=profile" title="Stack Overflow" class="fab fa-stack-overflow" target="_blank"></a>
                     </li>
                     <li>
-                    <a href="https://www.facebook.com/vanaf1979/" title="Volg Vanaf1979 op Facebook" class="fab fa-facebook" target="_blank"></a>
+                        <a href="https://mix.com/vanaf1979" title="Mix" class="fab fa-mix" target="_blank"></a>
+                    </li>
+                    <li>
+                    <a href="https://www.facebook.com/vanaf1979/" title="Facebook" class="fab fa-facebook" target="_blank"></a>
                     </li>
                 </ul>
 

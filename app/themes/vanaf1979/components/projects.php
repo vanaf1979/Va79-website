@@ -6,7 +6,7 @@
         <div class="image pure-u-1 pure-u-sm-1 pure-u-md-1pure-u-lg-1 pure-u-xl-1">
 
             <h2>Projects</h2>
-            <p>A selection of my personal projects</p>
+            <p>A selection of my personal WordPress projects</p>
 
         </div>
 

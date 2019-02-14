@@ -81,7 +81,7 @@ class Functions
 		$this->loader->add_action( 'init' , $functions_global , 'clean_up_header' );
 
 		/** Remove the rest api **/
-		$this->loader->add_action( 'after_setup_theme' , $functions_global , 'remove_json_api' );
+		//$this->loader->add_action( 'after_setup_theme' , $functions_global , 'remove_json_api' );
 
 		/** Remove wpembed scripts **/
 		$this->loader->add_action( 'wp_footer' , $functions_global , 'remove_wpembed_scripts' );

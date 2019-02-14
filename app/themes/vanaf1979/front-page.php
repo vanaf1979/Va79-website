@@ -22,6 +22,12 @@
             <?php get_template_part('components/projects'); ?>
 
 
+            <?php get_template_part('components/parallax'); ?>
+
+
+            <?php get_template_part('components/writing'); ?>
+
+
             <?php get_template_part('components/contact'); ?>
 
 
