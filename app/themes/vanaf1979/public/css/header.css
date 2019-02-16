@@ -2073,8 +2073,8 @@ html, body {
 * {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #444756;
-  font-weight: 200;
+  color: #555555;
+  font-weight: 300;
   line-height: 1.8em;
   letter-spacing: 1.2px;
   -webkit-text-size-adjust: 100%;
@@ -2096,41 +2096,41 @@ h4, h4 a,
 h5, h5 a,
 h6, h6 a {
   display: block;
-  font-weight: 200;
+  font-weight: 400;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  color: #444756;
+  color: #007fac;
   text-decoration: none;
 }
 
 h1, h1 a {
   font-size: 2.0rem;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 h2, h2 a {
   font-size: 1.8rem;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
 }
 
 h3, h3 a {
   font-size: 1.6rem;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 h4, h4 a {
   font-size: 1.4rem;
   line-height: 1.1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.7rem;
 }
 
 h5, h5 a {
   font-size: 1.2rem;
   line-height: 1.1em;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 h6, h6 a {
@@ -2253,7 +2253,8 @@ ul.coloured li:before {
 }
 
 li {
-  line-height: 1.4em;
+  line-height: 1.8em;
+  margin: 0px 0px 8px 0px;
 }
 
 section,
@@ -2889,6 +2890,44 @@ html, body {
     margin: 20px 0px 40px 0px;
   }
 }
+.article {
+  margin: 30px 0px 60px 0px;
+}
+
+.article article {
+  margin: 0px 40px 0px 0px;
+}
+
+.article article h1 {
+  margin: 0px 0px 30px 0px;
+}
+
+.article article a {
+  color: #007fac;
+  text-decoration: none;
+}
+
+.article article a:hover {
+  text-decoration: underline;
+}
+
+.article article .wp-block-coblocks-gist {
+  margin: 20px 0px 40px 0px;
+  font-size: 12px !important;
+}
+
+.article .sidebar section {
+  margin: 3px 0px 0px 0px;
+  padding: 0px 0px 0px 40px;
+  border-left: solid 1px #dddddd;
+}
+
+.article .sidebar section ul {
+  list-style: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
 .contact {
   background: #202020;
   background-image: url(/app/themes/vanaf1979/public/img/adam-solomon-472458-unsplash.jpg);
