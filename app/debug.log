@@ -650,3 +650,22 @@ Stack trace:
 #3 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/saskia/D...')
 #4 {main}
   thrown in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php on line 26
+[17-Feb-2019 13:13:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 13:14:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 11
+[17-Feb-2019 13:23:12 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:23:15 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:23:59 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:01 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:42 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:44 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:25:25 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:25:28 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-small] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-mid] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-small] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-mid] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32
+[17-Feb-2019 13:28:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32

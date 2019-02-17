@@ -2489,16 +2489,12 @@ html, body {
 
 .slider {
   height: 450px;
+  overflow: hidden;
 }
 
 .slider .swiper-wrapper {
   height: 100%;
-}
-
-.slider .swiper-wrapper .swiper-slide {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  overflow: hidden;
 }
 
 .slider .swiper-wrapper .swiper-slide .image {
@@ -2509,17 +2505,18 @@ html, body {
 
 .slider .swiper-wrapper .swiper-slide .image img {
   display: block;
-  width: 100%;
-  height: auto;
-  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100%;
+  position: relative;
   left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 100;
 }
 
-.slider .swiper-wrapper .swiper-slide .image:after {
+.slider .swiper-wrapper .swiper-slide .image:before {
   content: "";
   display: block;
   position: absolute;
@@ -2527,6 +2524,7 @@ html, body {
   width: 100%;
   height: 100%;
   background: rgba(0, 101, 155, 0.6);
+  z-index: 200;
 }
 
 .slider .swiper-wrapper .swiper-slide .inner {
@@ -2559,11 +2557,18 @@ html, body {
 }
 
 .slider .swiper-wrapper .swiper-slide .inner article p {
+  display: block;
   color: #ffffff;
 }
 
-.slider .swiper-wrapper .swiper-slide .inner article a {
+.slider .swiper-wrapper .swiper-slide .inner article p a {
+  display: inline-block;
   color: #ffffff;
+  border: dotted 1px #ffffff;
+  padding: 3px 6px 3px 6px;
+  border-radius: 3px;
+  font-weight: 200 !important;
+  text-decoration: none;
 }
 
 .slider .swiper-button-prev, .home-slider .swiper-container-rtl .swiper-button-next {
@@ -2589,6 +2594,16 @@ html, body {
   background: rgba(255, 255, 255, 0.9);
 }
 
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .slider {
+    height: 350px;
+  }
+}
 .breadcrumbs ul {
   display: inline-block;
   margin: 10px 0px 10px 0px;

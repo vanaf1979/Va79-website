@@ -2,17 +2,12 @@
 
 .slider {
     height: 450px;
+    overflow: hidden;
 }
     .slider .swiper-wrapper {
         height: 100%;
+        overflow: hidden;
     }
-        .slider .swiper-wrapper .swiper-slide {
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        
-
         .slider .swiper-wrapper .swiper-slide .image {
             height: 100%;
             width: 100%;
@@ -20,18 +15,16 @@
         }
             .slider .swiper-wrapper .swiper-slide .image img {
                 display: block;
-                width: 100%;
-                height: auto;
-                // min-width: 100%;
-                // min-height: 100%;
+                object-fit: cover;
+                min-height: 100%;
 
-                position: absolute;
+                position: relative;
                 left: 50%;
-                top: 50%;
-                transform: translate(-50%,-50%);
+                transform: translateX(-50%);
+                z-index: 100;
             }
 
-            .slider .swiper-wrapper .swiper-slide .image:after {
+            .slider .swiper-wrapper .swiper-slide .image:before {
                 content: "";
                 display: block;
                 position: absolute;
@@ -39,6 +32,7 @@
                 width: 100%;
                 height: 100%;
                 background: rgba(0, 101, 155, 0.6);;
+                z-index: 200;
             }
 
         .slider .swiper-wrapper .swiper-slide .inner {
@@ -64,10 +58,18 @@
                     color: #ffffff;
                 }
                 .slider .swiper-wrapper .swiper-slide .inner article p {
+                    display: block;
                     color: #ffffff;
                 }
-                .slider .swiper-wrapper .swiper-slide .inner article a {
+                .slider .swiper-wrapper .swiper-slide .inner article p a {
+                    display: inline-block;
                     color: #ffffff;
+                    border: dotted 1px #ffffff;
+                    padding: 3px 6px 3px 6px;
+                    border-radius: 3px;
+
+                    font-weight: 200 !important;
+                    text-decoration: none;
                 }
 
     .slider .swiper-button-prev, .home-slider .swiper-container-rtl .swiper-button-next {
@@ -89,3 +91,35 @@
                 opacity: 1;
                 background: rgba(255, 255, 255, 0.9 );
             }
+
+
+@media screen and ( max-width: 1024px )
+{
+
+}
+
+@media screen and ( max-width: 768px )
+{
+    .slider {
+        height: 400px;
+    }
+
+    // .slider .swiper-wrapper .swiper-slide .image img {
+    //     width: auto;
+    //     height: 100%;
+    //     min-height: 100%;
+    // }
+}
+
+@media screen and ( max-width: 568px )
+{
+    .slider {
+        height: 350px;
+    }
+
+    // .slider .swiper-wrapper .swiper-slide .image img {
+    //     width: auto;
+    //     height: 100%;
+    //     min-height: 100%;
+    // }
+}

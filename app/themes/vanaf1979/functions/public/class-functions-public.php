@@ -39,7 +39,9 @@ class Functions_Public
 	public function register_thumbnail_sizes()
 	{
 		add_theme_support( 'post-thumbnails' );
-		//add_image_size( 'theme-resposive-img', 600, 9999, true );
+		add_image_size( 'slider-image-large', 1400, 450, true );
+		add_image_size( 'slider-image-mid', 768, 400, true );
+		add_image_size( 'slider-image-small', 568, 350, true );
 	}
 
 
