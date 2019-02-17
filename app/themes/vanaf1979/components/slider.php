@@ -8,7 +8,7 @@
             <?php
             $slides = get_field( 'slides' , $post->ID );
 
-            if( count( $slides ) == 0 )
+            if( $slides == false )
             {
                 $slides = get_field( 'slides' , 5 );
             }
@@ -46,9 +46,9 @@
 
         </div>
 
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination inactive"></div>
+        <div class="swiper-button-next inactive"></div>
+        <div class="swiper-button-prev inactive"></div>
         
 
 </div>

@@ -11,7 +11,9 @@ var slider = {
     {
         this.slider = Utils.find( '.swiper-container' );
 
-        if( this.slider )
+        var slides = Utils.findAll( '.swiper-slide' , this.slider );
+       
+        if( slides.length > 1 )
         {
             this.sliderInView();
         }
@@ -40,6 +42,15 @@ var slider = {
 
     activateSwiper: function()
     {
+        var pagination = Utils.find( '.swiper-pagination' , this.slider );
+        pagination.classList.remove('inactive');
+
+        var buttonNext = Utils.find( '.swiper-button-next' , this.slider );
+        buttonNext.classList.remove('inactive');
+
+        var buttonPrev = Utils.find( '.swiper-button-prev' , this.slider );
+        buttonPrev.classList.remove('inactive');
+
         if( ! this.swiper )
         {
             this.swiper = new Swiper( this.slider , {

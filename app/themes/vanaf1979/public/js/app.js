@@ -302,8 +302,9 @@ var slider = {
   slider: null,
   init: function init() {
     this.slider = Utils.find('.swiper-container');
+    var slides = Utils.findAll('.swiper-slide', this.slider);
 
-    if (this.slider) {
+    if (slides.length > 1) {
       this.sliderInView();
     } else {
       console.debug('Slider not present on page.');
@@ -320,6 +321,13 @@ var slider = {
     });
   },
   activateSwiper: function activateSwiper() {
+    var pagination = Utils.find('.swiper-pagination', this.slider);
+    pagination.classList.remove('inactive');
+    var buttonNext = Utils.find('.swiper-button-next', this.slider);
+    buttonNext.classList.remove('inactive');
+    var buttonPrev = Utils.find('.swiper-button-prev', this.slider);
+    buttonPrev.classList.remove('inactive');
+
     if (!this.swiper) {
       this.swiper = new Swiper(this.slider, {
         slidesPerView: 1,

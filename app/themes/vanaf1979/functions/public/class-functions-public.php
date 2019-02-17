@@ -42,6 +42,8 @@ class Functions_Public
 		add_image_size( 'slider-image-large', 1400, 450, true );
 		add_image_size( 'slider-image-mid', 768, 400, true );
 		add_image_size( 'slider-image-small', 568, 350, true );
+
+		add_image_size( 'responsive-image', 520, 320, true );
 	}
 
 
@@ -50,6 +52,5 @@ class Functions_Public
 		add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 		add_theme_support( 'menus' );
 	}
-
 
 }
