@@ -14,7 +14,8 @@
     .main-nav .nav {
         text-align: right;
     }
-        .main-nav .nav .mainmenu {
+        .main-nav .nav .menu-header-menu-container, 
+        .main-nav .nav .menu-header-menu-en-container {
             display: inline-block;
         }
         .main-nav .nav ul {
@@ -30,4 +31,7 @@
                 .main-nav .nav ul li a {
                     font-weight: 400;
                     font-size: 14px;
+                }
+                .main-nav .nav ul li.current_page_item a, .main-nav .nav ul li.current-page-ancestor a {
+                    font-weight: 600;
                 }

@@ -2111,37 +2111,37 @@ h6, h6 a {
 
 h1, h1 a {
   font-size: 2.0rem;
-  line-height: 1.1;
+  line-height: 2.5rem;
   margin-bottom: 1rem;
 }
 
 h2, h2 a {
   font-size: 1.8rem;
-  line-height: 1.1;
+  line-height: 2.5rem;
   margin-bottom: 0.9rem;
 }
 
 h3, h3 a {
   font-size: 1.6rem;
-  line-height: 1.1;
+  line-height: 2.5rem;
   margin-bottom: 0.8rem;
 }
 
 h4, h4 a {
   font-size: 1.4rem;
-  line-height: 1.1em;
+  line-height: 2.5rem;
   margin-bottom: 0.7rem;
 }
 
 h5, h5 a {
   font-size: 1.2rem;
-  line-height: 1.1em;
+  line-height: 2.5rem;
   margin-bottom: 0.6rem;
 }
 
 h6, h6 a {
   font-size: 1.0rem;
-  line-height: 1.1em;
+  line-height: 2.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -2466,7 +2466,8 @@ html, body {
   text-align: right;
 }
 
-.main-nav .nav .mainmenu {
+.main-nav .nav .menu-header-menu-container,
+.main-nav .nav .menu-header-menu-en-container {
   display: inline-block;
 }
 
@@ -2485,6 +2486,10 @@ html, body {
 .main-nav .nav ul li a {
   font-weight: 400;
   font-size: 14px;
+}
+
+.main-nav .nav ul li.current_page_item a, .main-nav .nav ul li.current-page-ancestor a {
+  font-weight: 600;
 }
 
 .slider {
@@ -3053,6 +3058,7 @@ html, body {
   font-size: 14px;
   color: #aaaaaa;
   margin: 0px 0px 10px 0px;
+  line-height: 1.2rem;
 }
 
 .footer section p {
