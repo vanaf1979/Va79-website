@@ -1,6 +1,6 @@
 <?php
 
-class Functions_Admin
+class Functionsphp_Admin
 {
 	private $theme_name;
 
@@ -15,19 +15,25 @@ class Functions_Admin
 
 	public function enqueue_styles()
 	{
+		// NOTE: wp_enqueue_style();
+		// https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+
 		// wp_enqueue_style( $this->theme_name  . '-css', get_stylesheet_directory_uri() . '/public/css/admin.css', array() , $this->version , 'screen' );
 	}
 
 
 	public function enqueue_scripts()
 	{
+		// NOTE: wp_enqueue_script();
+		// https://developer.wordpress.org/reference/functions/wp_enqueue_script/
+
 		// wp_enqueue_script( $this->theme_name . '-js' , get_stylesheet_directory_uri() . '/public/js/admin.js' , array() , $this->version , true );
 	}
 
 
 	public function register_nav_menus()
 	{
-		// NOTE: Read the codex on registering custom menus
+		// NOTE: Read the codex on registering custom menus.
 		// https://codex.wordpress.org/Navigation_Menus
 
 		register_nav_menus(

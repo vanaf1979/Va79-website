@@ -1,6 +1,6 @@
 <?php
 
-class Functions_Loader
+class Functionsphp_Loader
 {
 	protected $actions;
 

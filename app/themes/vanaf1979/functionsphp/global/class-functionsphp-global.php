@@ -1,6 +1,6 @@
 <?php
 
-class Functions_Global
+class Functionsphp_Global
 {
 
 	private $theme_name;
@@ -57,6 +57,7 @@ class Functions_Global
 		add_filter('rest_jsonp_enabled', '__return_false');
 	}
 
+	
 	public function remove_wpembed_scripts()
 	{
 		wp_deregister_script( 'wp-embed' );
