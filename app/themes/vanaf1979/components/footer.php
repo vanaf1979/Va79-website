@@ -2,7 +2,7 @@
 
 <div class="footer va-grid-full">
 
-    <div class="pure-g va-grid-center">
+    <div class="pure-g va-grid-center-pad">
 
         <div class="first pure-u-1 pure-u-sm-2-5 pure-u-md-2-5 pure-u-lg-2-5 pure-u-xl-2-5">
             
@@ -41,7 +41,7 @@
 
         </div>
 
-        <div class="pure-u-1 pure-u-sm-1-5 pure-u-md-1-5 pure-u-lg-1-5 pure-u-xl-1-5">
+        <div class="pure-u-1-2 pure-u-sm-1-5 pure-u-md-1-5 pure-u-lg-1-5 pure-u-xl-1-5">
             
             <section>
 
@@ -67,7 +67,7 @@
 
         </div>
 
-        <div class="pure-u-1 pure-u-sm-1-5 pure-u-md-1-5 pure-u-lg-1-5 pure-u-xl-1-5">
+        <div class="pure-u-1-2 pure-u-sm-1-5 pure-u-md-1-5 pure-u-lg-1-5 pure-u-xl-1-5">
             
             <section>
 

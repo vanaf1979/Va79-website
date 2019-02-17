@@ -19,7 +19,7 @@
         .footer section p {
             color: #bbbbbb;
             font-size: 13px;
-            line-height: 23px;
+            margin: 1px 0px 0px 0px;
         }
             .footer section p a {
                 font-size: 13px;
@@ -35,7 +35,8 @@
             padding: 0px 0px 0px 0px;
         }
             .footer section ul li {
-                
+                margin: 0px 0px 0px 0px;
+                padding: 0px 0px 0px 0px;
             }
                 .footer section ul li span {
                     padding: 0px 4px 0px 0px;
@@ -66,3 +67,28 @@
                     color: #bbbbbb;
                     text-decoration: underline;
                 }
+
+@media screen and ( max-width: 1024px )
+{
+
+}
+
+@media screen and ( max-width: 768px )
+{
+
+}
+
+@media screen and ( max-width: 568px )
+{
+    .footer section, .footer .first section {
+        margin: 0px 20px 40px 20px;;
+    }
+
+    .footer .meta {
+        padding: 0px 20px 0px 20px;
+        text-align: left;
+    }
+        .footer .meta p {
+            text-align: left;
+        }
+}

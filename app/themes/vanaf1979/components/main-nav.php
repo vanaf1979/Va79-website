@@ -17,10 +17,10 @@
             ?>
             <ul class="lang">
                 <li>
-                    <a href="<?php echo $lang['nl']['url']; ?>">NL</a>
+                    <a href="<?php echo $lang['nl']['url']; ?>">Dutch</a>
                 </li>
                 <li>
-                    <a href="<?php echo $lang['en']['url']; ?>">EN</a>
+                    <a href="<?php echo $lang['en']['url']; ?>">English</a>
                 </li>
             </ul>
         </div>

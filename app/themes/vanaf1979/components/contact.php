@@ -9,7 +9,7 @@
             <div class="header pure-u-1 pure-u-sm-1 pure-u-md-1 pure-u-lg-1 pure-u-xl-1">
 
                 <header>
-                    <h3>Need an ark? I Noah guy!</h3>
+                    <h3><span>Need an ark?</span> <span>I Noah guy!</span></h3>
                     <p>If you have any questions, drop me a line.</p>
                 </header>
 
