@@ -20,7 +20,7 @@
 
         <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
         
-            <img src="/app/themes/vanaf1979/public/img/wordpress-dev-monthly-recap-february-socials.jpg" alt="" />
+            <img src="/app/themes/vanaf1979/public/img/seobox-logo.jpg" alt="" />
 
         </div>
         
@@ -28,7 +28,7 @@
     
             <article>
                 
-                <h3>Wordpress Dev Monthly Recap for January.</h3>
+                <h3>Seobox plugin.</h3>
                 <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                 <a href="./item.html">Read article</a>
                 
@@ -42,7 +42,7 @@
 
         <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
         
-            <img src="/app/themes/vanaf1979/public/img/wordpress-dev-monthly-recap-february-socials.jpg" alt="" />
+            <img src="/app/themes/vanaf1979/public/img/functionsphp-logo.jpg" alt="" />
 
         </div>
         
@@ -50,7 +50,7 @@
     
             <article>
                 
-                <h3>WordPress: Multiple Custom Templates for Posts and Custom Post Types.</h3>
+                <h3>FunctionsPhp boilerplate.</h3>
                 <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                 <a href="./item.html">Read article</a>
                 
@@ -64,7 +64,7 @@
 
         <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
         
-            <img src="/app/themes/vanaf1979/public/img/wordpress-dev-monthly-recap-february-socials.jpg" alt="" />
+            <img src="/app/themes/vanaf1979/public/img/basetheme-logo3.jpg" alt="" />
 
         </div>
         
@@ -72,7 +72,7 @@
     
             <article>
                 
-                <h3>Wordpress Dev Monthly Recap for December.</h3>
+                <h3>Base theme.</h3>
                 <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                 <a href="./item.html">Read article</a>
                 
