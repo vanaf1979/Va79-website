@@ -13,6 +13,11 @@
 
 /app/themes/vanaf1979/public
 /app/plugins
+/app/cache
+/app/upgrade
+/app/uploads
+/app/languages
+/app/debug.log
 /wp
 /vendor
 
