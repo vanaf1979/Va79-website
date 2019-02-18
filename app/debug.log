@@ -699,3 +699,30 @@ Stack trace:
 [17-Feb-2019 18:45:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
 [17-Feb-2019 18:45:59 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
 [17-Feb-2019 18:45:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[18-Feb-2019 14:06:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_the_languages() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php:17
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(690): require()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(647): load_template('/Users/saskia/D...', false)
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/front-page.php(10): get_template_part('components/main...')
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template-loader.php(74): include('/Users/saskia/D...')
+#5 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(19): require_once('/Users/saskia/D...')
+#6 /Users/saskia/Documents/repos/websites/va79-website/wp/index.php(17): require('/Users/saskia/D...')
+ in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 17
+[18-Feb-2019 14:07:25 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 21
+[18-Feb-2019 14:07:25 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 24
+[18-Feb-2019 14:07:25 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 9
+[18-Feb-2019 14:07:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[18-Feb-2019 14:10:52 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 21
+[18-Feb-2019 14:10:52 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 24
+[18-Feb-2019 14:10:52 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 9
+[18-Feb-2019 14:10:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[18-Feb-2019 14:11:59 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 21
+[18-Feb-2019 14:11:59 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 24
+[18-Feb-2019 14:11:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 9
+[18-Feb-2019 14:11:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[18-Feb-2019 14:15:43 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 21
+[18-Feb-2019 14:15:43 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/main-nav.php on line 24
+[18-Feb-2019 14:15:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 9
+[18-Feb-2019 14:15:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[18-Feb-2019 14:18:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
