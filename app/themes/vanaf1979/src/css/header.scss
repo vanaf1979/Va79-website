@@ -15,9 +15,16 @@
 @import 'utils/va79/utils.css';
 
 /* Import theme css files */
+@import 'components/app.scss';
 @import 'components/main-nav.scss';
 @import 'components/slider.scss';
-@import 'components/splash.scss';
+@import 'components/breadcrumbs.scss';
+@import 'components/intro.scss';
+@import 'components/projects.scss';
+@import 'components/parallax.scss';
+@import 'components/writing.scss';
 
-@import 'components/home-projects.scss';
-@import 'components/home-writings.scss';
+@import 'components/article.scss';
+
+@import 'components/contact.scss';
+@import 'components/footer.scss';

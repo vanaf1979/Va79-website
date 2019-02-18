@@ -1,25 +1,54 @@
-<div class="slider va-grid-full">
 
-    <div class="pure-g va-grid-full">
 
-        <div class="slide pure-u-1 pure-u-sm-1 pure-u-md-1 pure-u-lg-1 pure-u-xl-1">
 
-            <div class="inner">
+<div class="slider swiper-container va-grid-full">
 
-                <div class="content va-grid-center">
+        <div class="swiper-wrapper">
 
-                    <section>
-                        <h3>Wordpress: multiple custom templates for posts and custom post types.</h3>
-                        <p>A tutorial to show you how to register multiple custom template files for WordPress posts and custom post types.</p>
-                        <a href="">Read articel</a>
-                    </section>
+            <?php
+            $slides = get_field( 'slides' , $post->ID );
 
+            if( $slides == false )
+            {
+                $slides = get_field( 'slides' , 5 );
+            }
+
+            foreach( $slides as $slide )
+            {
+                $image = $slide['slide_image'];
+            ?>
+            
+            <div class="swiper-slide">
+
+                <div class="inner va-grid-center">
+
+                    <article>
+
+                        <?php echo $slide['slide_content']; ?>
+
+                    </article>
+
+                </div>
+
+                <div class="image">
+
+                    <img srcset="<?php echo $image['sizes']['slider-image-small']; ?> 568w, <?php echo $image['sizes']['slider-image-mid']; ?> 768w, <?php echo $image['sizes']['slider-image-large']; ?> 1400w"
+                            sizes="(max-width: 568px) 100vw, (max-width: 768px) 100vw, 100vw"
+                            src="<?php echo $image['sizes']['slider-image-large']; ?>" alt="<?php echo $image['alt']; ?>">
                 </div>
 
             </div>
 
+            
+            <?php
+            }
+            ?>
+
         </div>
 
-    </div>
+        <div class="swiper-pagination inactive"></div>
+        <div class="swiper-button-next inactive"></div>
+        <div class="swiper-button-prev inactive"></div>
+        
 
 </div>

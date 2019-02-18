@@ -12,7 +12,7 @@
         .breadcrumbs ul li {
             display: inline-block;
             padding: 0px 5px 0px 0px;
-            font-size: 12px;
+            font-size: 13px;
         }
             .breadcrumbs ul li:after {
                 content: " >";
@@ -20,9 +20,16 @@
             .breadcrumbs ul li:last-child:after {
                 content: "";
             }
+            .breadcrumbs ul li span {
+                font-size: 13px;
+            } 
             .breadcrumbs ul li a {
                 text-decoration: none;
+                font-size: 13px;
             }  
+                .breadcrumbs ul li a span {
+                    font-size: 13px;
+                }  
                 .breadcrumbs ul li a:hover {
                     text-decoration: underline;
                 }

@@ -13,12 +13,19 @@ License URI:        http://opensource.org/licenses/MIT
 
 
 /* Run functions class */
-require_once get_template_directory() . '/functions/class-functions.php';
+require_once get_template_directory() . '/functionsphp/class-functionsphp.php';
 
 function run_functions()
 {
-	$functions = new Functions();
+	$functions = new Functionsphp();
 	$functions->run();
 }
 run_functions();
+
+
+require_once get_template_directory() . '/functionsphp/class-functionsphp-utils.php';
+
+global $theme;
+$theme = new Theme_Utils();
+set_query_var( 'theme' , $theme );
 ?>

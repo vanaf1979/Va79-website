@@ -24,3 +24,678 @@
 [07-Feb-2019 10:51:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/includes/class-functions-loader.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/_functions/class-functions.php on line 33
 [07-Feb-2019 10:52:45 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979_functions/includes/class-functions-loader.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/_functions/class-functions.php on line 34
 [07-Feb-2019 10:52:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979_functions/includes/class-functions-loader.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/_functions/class-functions.php on line 34
+[07-Feb-2019 18:53:28 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/admin/class-functions-global.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 23
+[07-Feb-2019 18:53:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/admin/class-functions-global.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 23
+[07-Feb-2019 18:54:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 18:54:38 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 18:57:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Functions::add_action() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php:61
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php(15): Functions->define_global_hooks()
+#1 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php(20): Functions->__construct()
+#2 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php(23): run_functions()
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-settings.php(443): include('/Users/saskia/D...')
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp-config.php(89): require_once('/Users/saskia/D...')
+#5 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-load.php(42): require_once('/Users/saskia/D...')
+#6 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(13): require_once('/Users/saskia/D...')
+#7 /Users/saskia in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 61
+[07-Feb-2019 18:58:33 UTC] PHP Recoverable fatal error:  Object of class Functions could not be converted to string in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 63
+[07-Feb-2019 18:58:41 UTC] PHP Recoverable fatal error:  Object of class Functions could not be converted to string in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 63
+[07-Feb-2019 18:58:53 UTC] PHP Recoverable fatal error:  Object of class Functions could not be converted to string in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 63
+[07-Feb-2019 18:59:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 18:59:49 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 18:59:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:00:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:01:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:02:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:04:16 UTC] PHP Recoverable fatal error:  Object of class Functions_Global could not be converted to string in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php on line 64
+[07-Feb-2019 19:04:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:04:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:04:47 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:04:50 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:06:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:08:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:09:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:10:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:10:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:10:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:12:43 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:14:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_nav_menus' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:15:22 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:15:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:18:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_custom_posttype' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:18:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_custom_posttype' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:22:30 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_shortcodes' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:22:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_shortcodes' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:23:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_shortcodes' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:24:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_shortcodes' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:24:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Admin' does not have a method 'register_shortcodes' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:28:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:31:10 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:31:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:31:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[07-Feb-2019 19:31:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 11:28:25 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 11:28:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 11:28:31 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 11:28:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 11:28:48 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php:9
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/seobox.php(35): Seobox_Activator::activate()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): activate_seobox(false)
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/plugin.php(598): do_action('activate_seobox...', false)
+#5 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/plugins.php(43): activate_plugin('seobox/seobox.p...', 'http://va79-web...', false)
+#6 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/sas in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php on line 9
+[11-Feb-2019 11:28:48 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php:9
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/seobox.php(35): Seobox_Activator::activate()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): activate_seobox('')
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/plugins.php(174): do_action('activate_seobox...')
+#5 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/saskia/D...')
+#6 {main}
+  thrown in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php on line 9
+[11-Feb-2019 11:28:48 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php:9
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/seobox.php(35): Seobox_Activator::activate()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): activate_seobox('')
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/plugins.php(174): do_action('activate_seobox...')
+#5 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/saskia/D...')
+#6 {main}
+  thrown in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-activator.php on line 9
+[11-Feb-2019 11:41:37 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/class-seobox-settings.php on line 39
+[11-Feb-2019 11:47:17 UTC] PHP Parse error:  syntax error, unexpected ''show_in_rest'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/class-seobox-settings.php on line 53
+[11-Feb-2019 12:29:06 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:28:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_g_browser_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 21
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_g_keywords in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_g_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_g_canonical in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_g_index_follow in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_tw_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_tw_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_tw_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_tw_author_handle in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_s_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_s_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:28:14 UTC] PHP Notice:  Undefined index: _seobox_s_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:29:05 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:30:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_g_browser_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 21
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_g_keywords in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_g_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_g_canonical in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_g_index_follow in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_fb_open_graph_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_tw_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_tw_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_tw_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_tw_author_handle in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_s_type in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_s_title in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:23 UTC] PHP Notice:  Undefined index: _seobox_s_description in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 69
+[11-Feb-2019 13:30:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:31:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:45:03 UTC] PHP Parse error:  syntax error, unexpected 'seobox' (T_STRING), expecting ',' or ')' in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-google-display.php on line 439
+[11-Feb-2019 13:47:44 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 13:47:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:47:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:47:48 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 13:47:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:47:48 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 13:52:22 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 13:52:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:52:26 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 13:52:26 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 13:52:26 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 14:29:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 14:41:14 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 21
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 24
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 27
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 30
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:41:15 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 21
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 24
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 27
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 30
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:41:18 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:42:51 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:42:51 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:42:51 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:42:51 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:43:09 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:43:09 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:43:09 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:43:09 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:43:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:43:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:43:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:43:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:44:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:44:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:44:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:44:34 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:45:05 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:45:06 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:45:06 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:45:06 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:46:31 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:46:31 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:46:31 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:46:31 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:46:53 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:46:53 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:46:53 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:46:53 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:47:46 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:47:46 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:47:46 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:47:46 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:48:26 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:48:26 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:48:26 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:48:26 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:48:56 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:48:57 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:48:57 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:48:57 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 14:49:19 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 51
+[11-Feb-2019 14:49:19 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 64
+[11-Feb-2019 14:49:19 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 77
+[11-Feb-2019 14:49:19 UTC] PHP Notice:  Undefined index: tab in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/settings/partials/seobox-settings-display.php on line 90
+[11-Feb-2019 18:03:14 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:21:02 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 18:21:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:21:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:21:03 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:21:04 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:23:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:24:09 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 18:24:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:24:12 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:24:12 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:24:12 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:24:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:24:16 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:24:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:24:17 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:24:18 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 18:25:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:25:52 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:25:52 UTC] PHP Deprecated:  Non-static method Seobox_Admin::meta_box_content() should not be called statically in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-admin/includes/template.php on line 1215
+[11-Feb-2019 18:28:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:28:21 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:28:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:28:21 UTC] PHP Notice:  rest_enabled is <strong>deprecated</strong> since version 4.7.0! Use rest_authentication_errors instead. The REST API can no longer be completely disabled, the rest_authentication_errors filter can be used to restrict access to the API, instead. in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/functions.php on line 4174
+[11-Feb-2019 18:28:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:28:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:28:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:28:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'Functions_Public' does not have a method 'theme_support' in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:31:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_embeds_rewrites' not found or invalid function name in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:31:11 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'disable_embeds_rewrites' not found or invalid function name in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php on line 286
+[11-Feb-2019 18:43:27 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php on line 36
+[11-Feb-2019 18:48:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Seobox_MetaValue::__construct(), 0 passed in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 40 and exactly 1 expected in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php:11
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php(40): Seobox_MetaValue->__construct()
+#1 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php(47): Seobox_TagBulder->get_tags_html()
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): Seobox_Public->add_seabox_tags_to_head('')
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hoo in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php on line 11
+[11-Feb-2019 18:48:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Seobox_MetaValue::__construct(), 0 passed in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 40 and exactly 1 expected in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php:11
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php(40): Seobox_MetaValue->__construct()
+#1 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php(47): Seobox_TagBulder->get_tags_html()
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): Seobox_Public->add_seabox_tags_to_head('')
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hoo in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php on line 11
+[11-Feb-2019 18:48:44 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function Seobox_MetaValue::__construct(), 0 passed in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 40 and exactly 1 expected in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php:11
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php(40): Seobox_MetaValue->__construct()
+#1 /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php(47): Seobox_TagBulder->get_tags_html()
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(286): Seobox_Public->add_seabox_tags_to_head('')
+#3 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/plugin.php(453): WP_Hoo in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-metavalue.php on line 11
+[12-Feb-2019 09:58:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pll_the_languages() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php:16
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(690): require()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(647): load_template('/Users/saskia/D...', false)
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/front-page.php(9): get_template_part('components/main...')
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template-loader.php(74): include('/Users/saskia/D...')
+#5 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(19): require_once('/Users/saskia/D...')
+#6 /Users/saskia/Documents/repos/websites/va79-website/wp/index.php(17): require('/Users/saskia/D...')
+# in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 16
+[12-Feb-2019 09:59:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 09:59:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:00:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:00:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:00:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:00:53 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:01:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:01:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:01:17 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:01:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:01:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:25 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:25 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:25 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:25 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:25 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:27 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:28 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:28 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:28 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:32 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:32 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:32 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:33 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:33 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:43 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:43 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:55 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:55 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:56 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:56 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:56 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:58 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:58 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:02:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:02:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:02:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:02:59 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:02:59 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:02:59 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:02 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:13 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:13 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:32 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:32 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:34 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:35 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:35 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:35 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:35 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:35 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:39 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:39 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:39 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:41 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:03:41 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:03:41 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:03:41 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:41 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:43 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:43 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:03:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:03:53 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:03:53 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:03 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:03 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:30 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:30 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:31 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:33 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:33 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:33 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:37 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:04:37 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:04:37 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:04:37 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:37 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:38 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:38 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:04:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:04:50 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:04:50 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:00 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:05:00 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:10 UTC] PHP Notice:  Undefined index: nl in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 20
+[12-Feb-2019 10:05:10 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:48 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:05:48 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:49 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:49 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:49 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:52 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:54 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:05:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:05:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:05:55 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:03 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:03 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:04 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:04 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:05 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:06 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:09 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:09 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:09 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:09 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:10 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:10 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:20 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:20 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:30 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:30 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:40 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:40 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:46 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 38
+[12-Feb-2019 10:06:46 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/public/class-seobox-public.php on line 46
+[12-Feb-2019 10:06:46 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/seobox/includes/class-seobox-tagbuilder.php on line 41
+[12-Feb-2019 10:06:46 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:51 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:51 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:06:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:06:58 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:06:58 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:07:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:07:08 UTC] PHP Notice:  Trying to get property of non-object in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/switcher.php on line 61
+[12-Feb-2019 10:07:08 UTC] PHP Notice:  Undefined index: en in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/main-nav.php on line 23
+[12-Feb-2019 10:09:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:09:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:09:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:09:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:09:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[12-Feb-2019 10:09:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/polylang/include/links-directory.php on line 206
+[14-Feb-2019 13:48:23 UTC] PHP Notice:  Undefined variable: theme in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php on line 26
+[14-Feb-2019 13:48:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_content() on null in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php:26
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template-loader.php(74): include()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(19): require_once('/Users/saskia/D...')
+#2 /Users/saskia/Documents/repos/websites/va79-website/index.php(4): require('/Users/saskia/D...')
+#3 /Users/saskia/.composer/vendor/laravel/valet/server.php(147): require('/Users/saskia/D...')
+#4 {main}
+  thrown in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php on line 26
+[17-Feb-2019 13:13:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 13:14:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 11
+[17-Feb-2019 13:23:12 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:23:15 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:23:59 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:01 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:42 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:24:44 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:25:25 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:25:28 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-small] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-mid] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-small] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-mid] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 30
+[17-Feb-2019 13:27:56 UTC] PHP Notice:  Undefined index: [slider-image-large] in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32
+[17-Feb-2019 13:28:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 32
+[17-Feb-2019 15:32:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 15:32:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 15:32:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 18
+[17-Feb-2019 15:32:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 18
+[17-Feb-2019 15:33:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 15:33:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[17-Feb-2019 15:34:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 19
+[17-Feb-2019 15:34:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 19
+[17-Feb-2019 15:34:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php:12
+Stack trace:
+#0 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(690): require()
+#1 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template.php(647): load_template('/Users/saskia/D...', false)
+#2 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/general-template.php(155): locate_template(Array, true, false)
+#3 /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/page.php(13): get_template_part('components/slid...')
+#4 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/template-loader.php(74): include('/Users/saskia/D...')
+#5 /Users/saskia/Documents/repos/websites/va79-website/wp/wp-blog-header.php(19): require_once('/Users/saskia/D...')
+#6 /Users/saskia/Documents/repos/websites/va79-website/index.php(4): require('/Users/saskia/D...')
+#7 /Users/saskia/.compo in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 12
+[17-Feb-2019 15:34:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/components/slider.php on line 19
+[17-Feb-2019 15:39:45 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 15:39:48 UTC] PHP Notice:  Undefined index: dirname in /Users/saskia/Documents/repos/websites/va79-website/app/plugins/resmushit-image-optimizer/resmushit.php on line 89
+[17-Feb-2019 16:35:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/update.php on line 347
+[17-Feb-2019 16:35:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/update.php on line 529
+[17-Feb-2019 16:35:16 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/saskia/Documents/repos/websites/va79-website/wp/wp-includes/update.php on line 529
+[17-Feb-2019 18:43:41 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[17-Feb-2019 18:43:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[17-Feb-2019 18:45:41 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[17-Feb-2019 18:45:41 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[17-Feb-2019 18:45:59 UTC] PHP Warning:  require_once(/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php): failed to open stream: No such file or directory in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
+[17-Feb-2019 18:45:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions/class-functions.php' (include_path='.:/usr/local/Cellar/php@7.1/7.1.25/share/php@7.1/pear') in /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/functions.php on line 16
