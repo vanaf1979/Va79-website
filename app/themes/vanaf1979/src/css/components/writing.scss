@@ -1,40 +1,76 @@
 
 
-.writing {
-    margin: 20px auto 60px auto;
+.writingheader {
+    margin: 60px 0px 40px 0px;
+    text-align: center;
 }
-    .writing article {
-        max-width: 800px;
-        margin: 0px 40px 0px 0px;
+    .writingheader h2 {
+        font-size: 30px;
+        color: #00659b;
     }
 
-    .writing article .wp-block-coblocks-gist {
-        margin: 40px 0px 50px 0px;
-    }
-
-    .writing article .wp-block-image {
-        margin: 20px 0px 50px 0px;
-    }
-
-    .writing .sidebar section {
-        margin: 6px 0px 0px 0px;
-        padding: 0px 0px 0px 40px;
-        border-left: solid 1px #dddddd;
-    }
-        .writing .sidebar section ul {
-            display: inline-block;
-            margin: 0px 0px 0px 0px;
-            padding: 0px 0px 0px 0px;
-            list-style: none;
-            
+.writing {
+	margin: 0px auto 60px auto;
+}
+	.writing .item {
+		display: flex;
+		flex-flow: row;
+		margin: 0px auto 20px auto;
+	}
+		.writing .item:nth-child(even) {
+			display: flex;
+			flex-flow: row-reverse;
+		}
+		
+		.writing .item .image img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		
+		.writing .item .text article {
+			margin: 50px 50px 0px 50px;
         }
-            .writing .sidebar section ul li {
-                margin: 0px 0px 15px 0px;
-                padding: 0px 0px 0px 0px;
+            .writing .item .text article h3 {
+                color: #00659b;
+                font-size: 22px;
+                line-height: 28px;
             }
-                .writing .sidebar section ul li a {
+			.writing .item .text article a {
+				display: inline-block;
+				width: auto;
+				padding: 2px 6px 3px 6px;
+                border: solid 1px #bbbbbb;
+				color: #444756;
+                border-radius: 3px;
+                transition: all 0.2s ease;
+            }
+                .writing .item .text article a:hover {
+                    border: solid 1px #00659b;
+                    color: #00659b;
                     text-decoration: none;
                 }
-                    .writing .sidebar section ul li a:hover {
-                        text-decoration: underline;
-                    }
+			
+@media screen and ( max-width: 1024px )
+{
+
+}
+
+@media screen and ( max-width: 768px )
+{
+
+}
+
+@media screen and ( max-width: 568px )
+{
+	.writing .item {
+		flex-flow: column;
+		margin: 0px auto 20px auto;
+	}
+	.writing .item:nth-child(even) {
+		flex-flow: column;
+	}
+	.writing .item .text article {
+		margin: 20px 0px 40px 00px;
+	}
+}

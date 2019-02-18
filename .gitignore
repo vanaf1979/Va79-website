@@ -1,5 +1,7 @@
 /shared
 /app/upgrade/
+/app/languages/
+/app/cache/
 .DS_Store
 
 /node_modules
@@ -11,5 +13,12 @@
 
 /app/themes/vanaf1979/public
 /app/plugins
+/app/cache
+/app/upgrade
+/app/uploads
+/app/languages
+/app/debug.log
 /wp
 /vendor
+
+/app/themes/vanaf1979/_old_themefiles
