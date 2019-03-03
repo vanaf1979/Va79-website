@@ -2,7 +2,7 @@ import Utils from '../../components/utils/index.js';
 import inView from 'in-view';
 import Swiper from 'swiper';
 
-var Slider = {
+var HeaderSlider = {
 
     swiper: null,
     slider: null,
@@ -140,5 +140,5 @@ var Slider = {
 }
 
 
-export default Slider;
+export default HeaderSlider;
 
