@@ -12,7 +12,10 @@
                 
                     <h2>“Any fool can know. The point is to understand.”</h2>
                     <p>― Albert Einstein</p>
-                    
+
+                    <!-- <h2>If I do a job in 30 minutes it’s because I spent 10 years learning how to do that in 30 minutes. You owe me for the years, not the minutes.</h2>
+                    <p>― <a href="https://twitter.com/davygreenberg" target="_blank">Davy</a></p> -->
+
                 </div>
                 
             </div>

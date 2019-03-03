@@ -123,30 +123,33 @@
 /*!********************************************!*\
   !*** ./app/themes/vanaf1979/src/js/app.js ***!
   \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_scriptloaders_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/scriptloaders/index.js */ "./app/themes/vanaf1979/src/js/components/scriptloaders/index.js");
+/* harmony import */ var _components_slider_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/slider/index.js */ "./app/themes/vanaf1979/src/js/components/slider/index.js");
+/* harmony import */ var _components_intro_index_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/intro/index.js */ "./app/themes/vanaf1979/src/js/components/intro/index.js");
+/* harmony import */ var _components_parallax_index_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/parallax/index.js */ "./app/themes/vanaf1979/src/js/components/parallax/index.js");
 /* Import utilities. */
-var utils = __webpack_require__(/*! ./components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
 
-var slider = __webpack_require__(/*! ./components/slider/index.js */ "./app/themes/vanaf1979/src/js/components/slider/index.js");
-
-var intro = __webpack_require__(/*! ./components/intro/index.js */ "./app/themes/vanaf1979/src/js/components/intro/index.js");
-
-var parallax = __webpack_require__(/*! ./components/parallax/index.js */ "./app/themes/vanaf1979/src/js/components/parallax/index.js");
 /* Import components. */
 
 
-var scriptLoaders = __webpack_require__(/*! ./components/scriptloaders/index.js */ "./app/themes/vanaf1979/src/js/components/scriptloaders/index.js");
+
+
+
 /* Initialize components. */
 
-
-utils.domready(function () {
+_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.domready(function () {
   // Load external scripts and styles.
-  scriptLoaders.init();
-  slider.init();
-  intro.init();
-  parallax.init();
+  _components_scriptloaders_index_js__WEBPACK_IMPORTED_MODULE_1__["default"].init();
+  _components_slider_index_js__WEBPACK_IMPORTED_MODULE_2__["default"].init();
+  _components_intro_index_js__WEBPACK_IMPORTED_MODULE_3__["default"].init();
+  _components_parallax_index_js__WEBPACK_IMPORTED_MODULE_4__["default"].init();
 });
 
 /***/ }),
@@ -155,44 +158,48 @@ utils.domready(function () {
 /*!***************************************************************!*\
   !*** ./app/themes/vanaf1979/src/js/components/intro/index.js ***!
   \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var Utils = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(in_view__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var bigpicture__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bigpicture */ "./node_modules/bigpicture/index.js");
+/* harmony import */ var bigpicture__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bigpicture__WEBPACK_IMPORTED_MODULE_2__);
 
-var inView = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
 
-var BigPicture = __webpack_require__(/*! bigpicture */ "./node_modules/bigpicture/index.js");
 
-var intro = {
+var Intro = {
   image: null,
   init: function init() {
-    this.image = Utils.find('.introbigpicture');
+    this.image = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.introbigpicture');
 
     if (this.image) {
-      console.log('here');
       this.imageInview();
     }
   },
   imageInview: function imageInview() {
     var _this = this;
 
-    inView.offset(-50);
-    inView('.introbigpicture').on('enter', function (el) {
+    in_view__WEBPACK_IMPORTED_MODULE_1___default.a.offset(-50);
+    in_view__WEBPACK_IMPORTED_MODULE_1___default()('.introbigpicture').on('enter', function (el) {
       _this.doBigpicture();
     });
   },
   doBigpicture: function doBigpicture() {
-    Utils.addEvent(this.image, 'click', function (e) {
+    _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.addEvent(this.image, 'click', function (e) {
       e.preventDefault();
-      BigPicture({
+      bigpicture__WEBPACK_IMPORTED_MODULE_2___default()({
         el: e.target,
         imgSrc: e.target.href
       });
     });
   }
 };
-module.exports = intro;
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
 
 /***/ }),
 
@@ -200,19 +207,24 @@ module.exports = intro;
 /*!******************************************************************!*\
   !*** ./app/themes/vanaf1979/src/js/components/parallax/index.js ***!
   \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var Utils = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(in_view__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var jarallax__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jarallax */ "./node_modules/jarallax/index.js");
+/* harmony import */ var jarallax__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jarallax__WEBPACK_IMPORTED_MODULE_2__);
 
-var inView = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
 
-var jarallax = __webpack_require__(/*! jarallax */ "./node_modules/jarallax/index.js");
 
-var intro = {
+var Intro = {
   parallax: null,
   init: function init() {
-    this.parallax = Utils.find('.home-graphic');
+    this.parallax = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.home-graphic');
 
     if (this.parallax) {
       this.parallaxInview();
@@ -221,18 +233,18 @@ var intro = {
   parallaxInview: function parallaxInview() {
     var _this = this;
 
-    inView.offset(-50);
-    inView('.home-graphic').on('enter', function (el) {
+    in_view__WEBPACK_IMPORTED_MODULE_1___default.a.offset(-50);
+    in_view__WEBPACK_IMPORTED_MODULE_1___default()('.home-graphic').on('enter', function (el) {
       _this.doParallax();
     });
   },
   doParallax: function doParallax() {
-    jarallax.jarallax(this.parallax, {
+    jarallax__WEBPACK_IMPORTED_MODULE_2___default.a.jarallax(this.parallax, {
       speed: 0.2
     });
   }
 };
-module.exports = intro;
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
 
 /***/ }),
 
@@ -240,12 +252,15 @@ module.exports = intro;
 /*!***********************************************************************!*\
   !*** ./app/themes/vanaf1979/src/js/components/scriptloaders/index.js ***!
   \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var utils = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__);
 
-var scriptLoaders = {
+var ScriptLoaders = {
   init: function init() {
     // Add Google Analytics
     //this.addGoogleAnalytics();
@@ -264,11 +279,11 @@ var scriptLoaders = {
   },
   addFooterCss: function addFooterCss() {
     // Add footer css styles.
-    utils.addStyle('/app/themes/vanaf1979/public/css/footer.css', 'body', null);
+    _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.addStyle('/app/themes/vanaf1979/public/css/footer.css', 'body', null);
   },
   addGoogleAnalytics: function addGoogleAnalytics() {
     // Append and initialize Google Analytics.
-    utils.addScript('https://www.googletagmanager.com/gtag/js?id=UA-75868924-1', function () {
+    _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.addScript('https://www.googletagmanager.com/gtag/js?id=UA-75868924-1', function () {
       window.dataLayer = window.dataLayer || [];
 
       function gtag() {
@@ -280,7 +295,7 @@ var scriptLoaders = {
     });
   }
 };
-module.exports = scriptLoaders;
+/* harmony default export */ __webpack_exports__["default"] = (ScriptLoaders);
 
 /***/ }),
 
@@ -288,48 +303,56 @@ module.exports = scriptLoaders;
 /*!****************************************************************!*\
   !*** ./app/themes/vanaf1979/src/js/components/slider/index.js ***!
   \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-var Utils = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/utils/index.js */ "./app/themes/vanaf1979/src/js/components/utils/index.js");
+/* harmony import */ var _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_utils_index_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
+/* harmony import */ var in_view__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(in_view__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var swiper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper */ "./node_modules/swiper/dist/js/swiper.esm.bundle.js");
 
-var inView = __webpack_require__(/*! in-view */ "./node_modules/in-view/dist/in-view.min.js");
 
-var Swiper = __webpack_require__(/*! swiper */ "./node_modules/swiper/dist/js/swiper.esm.bundle.js").default;
 
-var slider = {
+var Slider = {
   swiper: null,
   slider: null,
   init: function init() {
-    this.slider = Utils.find('.swiper-container');
-    var slides = Utils.findAll('.swiper-slide', this.slider);
+    this.slider = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-container'); // Is the slider present on the page?
 
-    if (slides.length > 1) {
-      this.sliderInView();
+    if (this.slider) {
+      var slides = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.findAll('.swiper-slide', this.slider); // Are there multiple slides?
+
+      if (slides.length > 1) {
+        this.sliderInView();
+      } else {
+        console.debug('Only one slide detected. Adding Swiper is pointless');
+        return;
+      }
     } else {
-      console.debug('Slider not present on page.');
+      console.debug('No slider detected.');
+      return;
     }
   },
   sliderInView: function sliderInView() {
     var _this = this;
 
-    inView.offset(-50);
-    inView('.swiper-container').on('enter', function (el) {
+    // TODO: Change to Waypoint.
+    in_view__WEBPACK_IMPORTED_MODULE_1___default.a.offset(-50);
+    in_view__WEBPACK_IMPORTED_MODULE_1___default()(this.slider).on('enter', function (el) {
       _this.activateSwiper();
     }).on('exit', function (el) {
       _this.deactivateSwiper();
     });
   },
   activateSwiper: function activateSwiper() {
-    var pagination = Utils.find('.swiper-pagination', this.slider);
-    pagination.classList.remove('inactive');
-    var buttonNext = Utils.find('.swiper-button-next', this.slider);
-    buttonNext.classList.remove('inactive');
-    var buttonPrev = Utils.find('.swiper-button-prev', this.slider);
-    buttonPrev.classList.remove('inactive');
-
     if (!this.swiper) {
-      this.swiper = new Swiper(this.slider, {
+      // Reveal the Swiper controls.
+      this.activateSwiperControls(); // Initialize Swiper.
+
+      this.swiper = new swiper__WEBPACK_IMPORTED_MODULE_2__["default"](this.slider, {
         slidesPerView: 1,
         spaceBetween: 0,
         grabCursor: true,
@@ -337,26 +360,43 @@ var slider = {
         effect: "fade",
         autoplay: {
           delay: 5000,
-          disableOnInteraction: false
+          disableOnInteraction: true
         },
         pagination: {
-          el: '.swiper-pagination',
+          el: _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-pagination', this.slider),
           clickable: true
         },
         navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev'
+          nextEl: _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-button-next', this.slider),
+          prevEl: _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-button-prev', this.slider)
         }
-      }); // Swiper Events
+      }); // Attach Swiper event handlers.
 
-      this.swiper.on('init', function () {//console.debug( 'Slider entered the viewport and was initialized' );
-      });
-      this.swiper.on('slideChangeTransitionEnd', function () {// var currentSlide = this.swiper.slides[ this.swiper.realIndex ];
-        //console.debug( 'Slider is now showwing slide nr: ' + this.swiper.realIndex );
-      });
-      this.swiper.on('destroy', function () {//console.debug( 'Slider left the viewport and was destroyed' );
-      });
+      this.handleSwiperEvents();
     }
+  },
+  activateSwiperControls: function activateSwiperControls() {
+    var pagination = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-pagination', this.slider);
+    pagination.classList.remove('inactive');
+    var buttonNext = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-button-next', this.slider);
+    buttonNext.classList.remove('inactive');
+    var buttonPrev = _components_utils_index_js__WEBPACK_IMPORTED_MODULE_0___default.a.find('.swiper-button-prev', this.slider);
+    buttonPrev.classList.remove('inactive');
+  },
+  handleSwiperEvents: function handleSwiperEvents() {
+    var _this2 = this;
+
+    this.swiper.on('init', function () {
+      console.debug('Slider entered the viewport and was initialized');
+    });
+    this.swiper.on('slideChangeTransitionEnd', function () {
+      _this2.animateSlideContent(_this2.swiper.slides[_this2.swiper.realIndex]);
+    });
+    this.swiper.on('destroy', function () {
+      console.debug('Slider left the viewport and was destroyed');
+    });
+  },
+  animateSlideContent: function animateSlideContent(slide) {// TODO: Animate slider content with anime.js.
   },
   deactivateSwiper: function deactivateSwiper() {
     if (this.swiper) {
@@ -365,7 +405,7 @@ var slider = {
     }
   }
 };
-module.exports = slider;
+/* harmony default export */ __webpack_exports__["default"] = (Slider);
 
 /***/ }),
 
@@ -12011,10 +12051,10 @@ module.exports = g;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/js/app.js */"./app/themes/vanaf1979/src/js/app.js");
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/header.scss */"./app/themes/vanaf1979/src/css/header.scss");
-__webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/footer.scss */"./app/themes/vanaf1979/src/css/footer.scss");
-module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/va79-website/app/themes/vanaf1979/src/css/style.scss */"./app/themes/vanaf1979/src/css/style.scss");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/src/js/app.js */"./app/themes/vanaf1979/src/js/app.js");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/src/css/header.scss */"./app/themes/vanaf1979/src/css/header.scss");
+__webpack_require__(/*! /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/src/css/footer.scss */"./app/themes/vanaf1979/src/css/footer.scss");
+module.exports = __webpack_require__(/*! /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/src/css/style.scss */"./app/themes/vanaf1979/src/css/style.scss");
 
 
 /***/ })

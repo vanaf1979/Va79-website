@@ -1,8 +1,8 @@
 
 
-<div class="footer va-grid-full">
+<div class="footer row">
 
-    <div class="pure-g va-grid-center-pad">
+    <div class="pure-g row-center-pad">
 
         <div class="first pure-u-1 pure-u-sm-2-5 pure-u-md-2-5 pure-u-lg-2-5 pure-u-xl-2-5">
             

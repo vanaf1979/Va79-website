@@ -1,8 +1,8 @@
-var Utils       = require('../../components/utils/index.js');
-var inView      = require('in-view');
-var BigPicture  = require('bigpicture')
+import Utils from '../../components/utils/index.js';
+import inView from 'in-view';
+import BigPicture from 'bigpicture';
 
-var intro = {
+var Intro = {
 
     image: null,
 
@@ -12,10 +12,10 @@ var intro = {
 
         if( this.image )
         {
-            console.log('here');
             this.imageInview();
         }
     },
+
 
     imageInview: function( )
     {
@@ -28,6 +28,7 @@ var intro = {
         })
     },
 
+    
     doBigpicture: function()
     {
         Utils.addEvent( this.image , 'click' , ( e ) => {
@@ -43,4 +44,4 @@ var intro = {
 }
 
  
-module.exports = intro;
+export default Intro;

@@ -1,10 +1,10 @@
 
 
-<section class="contact va-grid-full">
+<section class="contact row">
 
     <div class="inner">
 
-        <div class="pure-g va-grid-center">
+        <div class="pure-g row-center">
 
             <div class="header pure-u-1 pure-u-sm-1 pure-u-md-1 pure-u-lg-1 pure-u-xl-1">
 

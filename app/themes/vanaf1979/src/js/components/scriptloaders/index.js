@@ -1,6 +1,7 @@
-var utils       = require('../../components/utils/index.js');
 
-var scriptLoaders = {
+import Utils from '../../components/utils/index.js';
+
+var ScriptLoaders = {
 
     init: function( ) {
 
@@ -31,14 +32,14 @@ var scriptLoaders = {
     addFooterCss: function()
     {
         // Add footer css styles.
-        utils.addStyle( '/app/themes/vanaf1979/public/css/footer.css' , 'body' , null );
+        Utils.addStyle( '/app/themes/vanaf1979/public/css/footer.css' , 'body' , null );
     },
 
 
     addGoogleAnalytics: function()
     {
         // Append and initialize Google Analytics.
-        utils.addScript( 'https://www.googletagmanager.com/gtag/js?id=UA-75868924-1' , () => {
+        Utils.addScript( 'https://www.googletagmanager.com/gtag/js?id=UA-75868924-1' , () => {
             window.dataLayer = window.dataLayer || [];
             function gtag()
             {
@@ -51,4 +52,4 @@ var scriptLoaders = {
 }
 
  
-module.exports = scriptLoaders;
+export default ScriptLoaders;

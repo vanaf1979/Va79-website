@@ -1,7 +1,7 @@
 
-<section class="writingheader va-grid-full">
+<section class="writingheader row">
 			
-            <div class="item pure-g va-grid-center">
+            <div class="item pure-g row-center">
         
                 <div class="image pure-u-1 pure-u-sm-1 pure-u-md-1pure-u-lg-1 pure-u-xl-1">
         
@@ -14,9 +14,9 @@
         
         </section>
         
-        <section class="writing va-grid-full">
+        <section class="writing row-center">
                     
-            <div class="item pure-g va-grid-center">
+            <div class="item pure-g row-center">
         
                 <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
                 
@@ -38,7 +38,7 @@
                 
             </div>
             
-            <div class="item pure-g va-grid-center">
+            <div class="item pure-g row-center">
         
                 <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
                 
@@ -60,7 +60,7 @@
                 
             </div>
         
-            <div class="item pure-g va-grid-center">
+            <div class="item pure-g row-center">
         
                 <div class="image pure-u-1 pure-u-sm-1-2 pure-u-md-1-2 pure-u-lg-1-2 pure-u-xl-2">
                 

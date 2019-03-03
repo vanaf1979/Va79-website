@@ -1,7 +1,7 @@
 
 
 
-<div class="slider swiper-container va-grid-full">
+<div class="slider swiper-container row">
 
         <div class="swiper-wrapper">
 
@@ -10,7 +10,7 @@
 
             if( $slides == false )
             {
-                $slides = get_field( 'slides' , 5 );
+                $slides = get_field( 'slides' , 18 );
             }
 
             foreach( $slides as $slide )
@@ -20,7 +20,7 @@
             
             <div class="swiper-slide">
 
-                <div class="inner va-grid-center">
+                <div class="inner row-center">
 
                     <article>
 

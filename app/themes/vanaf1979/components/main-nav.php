@@ -1,6 +1,6 @@
-<div class="main-nav va-grid-full">
+<div class="main-nav row">
 
-    <div class="pure-g va-grid-center">
+    <div class="pure-g row-center">
 
         <div class="logo pure-u-1 pure-u-sm-1-4 pure-u-md-1-4 pure-u-lg-1-4 pure-u-xl-1-4">
             

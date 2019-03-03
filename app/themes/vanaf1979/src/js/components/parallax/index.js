@@ -1,11 +1,12 @@
-var Utils       = require('../../components/utils/index.js');
-var inView      = require('in-view');
-var jarallax    = require('jarallax')
+import Utils from '../../components/utils/index.js';
+import inView from 'in-view';
+import jarallax from 'jarallax';
 
-var intro = {
+var Intro = {
 
     parallax: null,
 
+    
     init: function( )
     {
         this.parallax = Utils.find( '.home-graphic' );
@@ -15,6 +16,7 @@ var intro = {
             this.parallaxInview();
         }
     },
+
 
     parallaxInview: function( )
     {
@@ -27,6 +29,7 @@ var intro = {
         })
     },
 
+
     doParallax: function()
     {
         jarallax.jarallax( this.parallax , {
@@ -36,4 +39,5 @@ var intro = {
 }
 
  
-module.exports = intro;
+export default Intro;
+
