@@ -1,37 +1,44 @@
 
+
 .main-nav {
-    
-}
-    .main-nav .logo a {
+
+    .logo a {
         display: block;
-        margin: 15px 0px 15px 0px;
+        margin: 25px 0px 25px 0px;
         padding: 0px 0px 0px 0px;
         font-size: 24px;
         font-weight: 400;
         text-decoration: none;
     }
 
-    .main-nav .nav {
+    .nav {
         text-align: right;
+
+        ul {
+            margin: 23px 0px 15px 0px;
+        }
+
+        .menu-header-menu-container, 
+        .menu-header-menu-en-container,
+        ul.menu.hor.right.lang {
+            display: inline-block;
+        }
     }
-        .main-nav .nav .menu-header-menu-container, 
-        .main-nav .nav .menu-header-menu-en-container {
-            display: inline-block;
-        }
-        .main-nav .nav ul {
-            display: inline-block;
-            margin: 27px 0px 0px 0px;
-            padding: 0px 0px 0px 0px;
-            list-style: none;
-        }
-            .main-nav .nav ul li {
-                display: inline-block;
-                margin: 0px 0px 0px 20px;
-            }
-                .main-nav .nav ul li a {
-                    font-weight: 400;
-                    font-size: 14px;
-                }
-                .main-nav .nav ul li.current_page_item a, .main-nav .nav ul li.current-page-ancestor a {
-                    font-weight: 600;
-                }
+}
+
+// Responsive
+
+@media screen and ( max-width: $breakpoint-lg )
+{
+
+}
+
+@media screen and ( max-width: $breakpoint-md )
+{
+
+}
+
+@media screen and ( max-width: $breakpoint-wm )
+{
+    
+}

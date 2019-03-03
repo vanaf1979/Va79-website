@@ -1236,7 +1236,7 @@ https://github.com/yahoo/pure/blob/master/LICENSE.md
 *,
 html,
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 14px;
@@ -1252,7 +1252,7 @@ body {
 }
 
 * {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 14px;
@@ -1875,41 +1875,22 @@ html, body {
 
 .main-nav .logo a {
   display: block;
-  margin: 15px 0px 15px 0px;
+  margin: 25px 0px 25px 0px;
   padding: 0px 0px 0px 0px;
   font-size: 24px;
   font-weight: 400;
   text-decoration: none;
 }
-
 .main-nav .nav {
   text-align: right;
 }
-
-.main-nav .nav .menu-header-menu-container,
-.main-nav .nav .menu-header-menu-en-container {
-  display: inline-block;
-}
-
 .main-nav .nav ul {
+  margin: 23px 0px 15px 0px;
+}
+.main-nav .nav .menu-header-menu-container,
+.main-nav .nav .menu-header-menu-en-container,
+.main-nav .nav ul.menu.hor.right.lang {
   display: inline-block;
-  margin: 27px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  list-style: none;
-}
-
-.main-nav .nav ul li {
-  display: inline-block;
-  margin: 0px 0px 0px 20px;
-}
-
-.main-nav .nav ul li a {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.main-nav .nav ul li.current_page_item a, .main-nav .nav ul li.current-page-ancestor a {
-  font-weight: 600;
 }
 
 .slider {
