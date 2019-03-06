@@ -28,7 +28,7 @@
             
                     <article>
                         
-                        <h3>Wordpress Dev Monthly Recap for January.</h3>
+                        <h4>Wordpress Dev Monthly Recap for January.</h4>
                         <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                         <a href="./item.html">Read article</a>
                         
@@ -50,7 +50,7 @@
             
                     <article>
                         
-                        <h3>WordPress: Multiple Custom Templates for Posts and Custom Post Types.</h3>
+                        <h4>Multiple Custom Templates for Posts and Custom Post Types.</h4>
                         <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                         <a href="./item.html">Read article</a>
                         
@@ -72,7 +72,7 @@
             
                     <article>
                         
-                        <h3>Wordpress Dev Monthly Recap for December.</h3>
+                        <h4>Wordpress Dev Monthly Recap for December.</h4>
                         <p>A monthly recap of wordpress (and related) articles, tutorials and resources for January 2019</p>
                         <a href="./item.html">Read article</a>
                         

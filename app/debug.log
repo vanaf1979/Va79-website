@@ -740,3 +740,6 @@ Stack trace:
 [28-Feb-2019 10:56:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
 [28-Feb-2019 10:56:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
 [28-Feb-2019 10:56:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/saskia/Documents/repos/websites/Va79-website/app/themes/vanaf1979/components/slider.php on line 16
+[06-Mar-2019 20:03:30 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/saskia/Documents/repos/websites/Va79-website/wp/wp-includes/wp-db.php on line 1531
+[06-Mar-2019 20:03:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/saskia/Documents/repos/websites/Va79-website/wp/wp-includes/wp-db.php on line 1531
+[06-Mar-2019 20:03:50 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /Users/saskia/Documents/repos/websites/Va79-website/wp/wp-includes/wp-db.php on line 1531

@@ -1,6 +1,7 @@
 import Utils from '../../components/utils/index.js';
 import inView from 'in-view';
 import Swiper from 'swiper';
+import anime from 'animejs';
 
 var HeaderSlider = {
 
@@ -38,19 +39,17 @@ var HeaderSlider = {
 
     sliderInView: function()
     {
-        // TODO: Change to Waypoint.
-
         inView.offset(-50);
 
-        inView( this.slider ).on( 'enter' , ( el ) => {
+        inView( '.swiper-container' ).on( 'enter', ( el ) => {
             
             this.activateSwiper();
 
-        }).on( 'exit' , ( el ) => {
+        }).on( 'exit', ( el ) => {
             
             this.deactivateSwiper();
 
-        });
+        })
     },
 
 
@@ -81,7 +80,7 @@ var HeaderSlider = {
                     prevEl: Utils.find( '.swiper-button-prev' , this.slider ),
                 },
             });
-
+        
             // Attach Swiper event handlers.
             this.handleSwiperEvents();
         }
@@ -103,21 +102,9 @@ var HeaderSlider = {
 
     handleSwiperEvents: function()
     {
-        this.swiper.on('init', () => {
-
-            console.debug( 'Slider entered the viewport and was initialized' );
-
-        });
-
-        this.swiper.on('slideChangeTransitionEnd', () => {
+        this.swiper.on('slideChangeTransitionStart', () => {
             
-            this.animateSlideContent( this.swiper.slides[ this.swiper.realIndex ] );
-
-        });
-
-        this.swiper.on('destroy', () => {
-
-            console.debug( 'Slider left the viewport and was destroyed' );
+            this.animateSlideContent( this.swiper.slides[ this.swiper.activeIndex ] );
 
         });
     },
@@ -125,7 +112,17 @@ var HeaderSlider = {
 
     animateSlideContent: function( slide )
     {
-        // TODO: Animate slider content with anime.js.
+        var innerEllements = Utils.findAll( '.inner article > *', slide);
+        anime({
+            easing: 'easeInOutQuad',
+            targets: innerEllements,
+            translateY: [-80, 0],
+            opacity: [0, 1],
+            duration: 500,
+            delay: function(el, i, l) {
+                return i * 150;
+            },
+        });
     },
 
 

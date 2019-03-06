@@ -9,6 +9,7 @@ let themePath = 'app/themes/vanaf1979/';
 
 mix.autoload({})
 .js( themePath + 'src/js/app.js', themePath + 'public/js/app.js')
+.extract()
 .sass( themePath + 'src/css/header.scss', themePath + 'public/css/header.css')
 .sass( themePath + 'src/css/footer.scss', themePath + 'public/css/footer.css')
 .sass( themePath + 'src/css/style.scss', themePath + 'style.css')

@@ -7,7 +7,7 @@ h4, h4 a,
 h5, h5 a,
 h6, h6 a {
     display: block;
-    margin: 0em;
+    margin: 0em 0em 0.5em 0em;
     padding: 0em;
    
     font-weight: $bravo-heading-font-weight;
@@ -18,37 +18,37 @@ h6, h6 a {
 h1,
 h1 a {
     font-size: $bravo-font-size * 2.5;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 h2,
 h2 a {
     font-size: $bravo-font-size * 2.0;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 h3,
 h3 a {
     font-size: $bravo-font-size * 1.75;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 h4,
 h4 a {
     font-size: $bravo-font-size * 1.5;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 h5,
 h5 a {
     font-size: $bravo-font-size * 1.25;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 h6,
 h6 a {
     font-size: $bravo-font-size * 1.0;
-    line-height: $bravo-radio * 1em;
+    line-height: 1.3em;
 }
 
 

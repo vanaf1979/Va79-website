@@ -17,9 +17,6 @@ class Functionsphp_Public
 
 	public function enqueue_styles()
 	{
-		// NOTE: wp_enqueue_style();
-		// https://developer.wordpress.org/reference/functions/wp_enqueue_style/
-
 		wp_enqueue_style( $this->theme_name  . '-css', get_stylesheet_directory_uri() . '/public/css/header.css', array() , $this->version , 'screen' );
 
 		wp_enqueue_style( $this->theme_name . '-ie9' , get_stylesheet_directory_uri() . '/public/css/header-ie9.css', array() , $this->version , 'screen' );
@@ -32,13 +29,14 @@ class Functionsphp_Public
 
 	public function enqueue_scripts()
 	{
-		// NOTE: wp_enqueue_script();
-		// https://developer.wordpress.org/reference/functions/wp_enqueue_script/
-
+		// HTML5 Shiv
 		wp_enqueue_script( $this->theme_name . '-html5' , 'https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js' , array() , $this->version , true );
     	wp_script_add_data( $this->theme_name . '-html5'  , 'conditional' , 'lt IE 9' );
 		
-		wp_enqueue_script( $this->theme_name . '-js' , get_stylesheet_directory_uri() . '/public/js/app.js' , array() , $this->version , true );
+		// App js
+		wp_enqueue_script( $this->theme_name . '-manifest' , get_stylesheet_directory_uri() . '/public/js/manifest.js' , array() , $this->version , true );
+		wp_enqueue_script( $this->theme_name . '-vendor' , get_stylesheet_directory_uri() . '/public/js/vendor.js' , array() , $this->version , true );
+		wp_enqueue_script( $this->theme_name . '-app' , get_stylesheet_directory_uri() . '/public/js/app.js' , array() , $this->version , true );
 	}
 
 
